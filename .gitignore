@@ -1,0 +1,6 @@
+# Contains ESPN auth cookies — never commit this
+scripts/config.json
+
+# Python
+__pycache__/
+*.pyc

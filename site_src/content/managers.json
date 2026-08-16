@@ -1,0 +1,268 @@
+{
+  "_readme": "Each entry is one manager/franchise. 'swid' links to the owners table in fantasy_league.db when known (leave null if unknown — team_id continuity across years, confirmed via ESPN's league-history/members page or by cross-checking the DB, is also a valid way to link a manager even without a SWID). 'team_aliases' lists every team name this manager has used, by year — used to compute their all-time record. 'claimed' controls what the site shows: true = display_name is a real name and renders on the page; false = the site shows a neutral 'Unclaimed Franchise' label instead (display_name/_internal_note stay in this file for your own reference, they just don't render). Flip 'claimed' to true once you fill in a real display_name. 'bio' and 'inside_joke' only render when site_src/content/league_info.json's section_visibility.show_manager_bios is true (currently off — see CONTENT_TODO.md).",
+
+  "managers": [
+    {
+      "id": "mgr_01",
+      "claimed": true,
+      "display_name": "Jorge Gonzalez",
+      "swid": "{5BE90AA5-7CB1-41A9-BEEB-138D56435A9B}",
+      "initials": "JG",
+      "bio": "PLACEHOLDER — Founded the league in 2018 and still hasn't figured out how to stop losing close ones. Runs waivers with an iron fist.",
+      "inside_joke": "PLACEHOLDER — \"The Commissioner\" era ended when the league found out.",
+      "team_aliases": [
+        {"year": 2018, "team_name": "The Commissioner"},
+        {"year": 2019, "team_name": "The Commissioner"},
+        {"year": 2020, "team_name": "The Commissioner"},
+        {"year": 2021, "team_name": "King of the North"},
+        {"year": 2022, "team_name": "King of the North"},
+        {"year": 2023, "team_name": "The Two Time"},
+        {"year": 2024, "team_name": "The Two Time"},
+        {"year": 2025, "team_name": "King of the north"}
+      ]
+    },
+    {
+      "id": "mgr_02",
+      "claimed": true,
+      "display_name": "Rodri Gonzalez",
+      "swid": "{65D3C2B4-A05E-4708-96A4-0027CF30EEB2}",
+      "initials": "RG",
+      "bio": "PLACEHOLDER — Rebrands the roster almost every year but somehow the vibes stay the same.",
+      "inside_joke": "PLACEHOLDER — Ask them about 2021.",
+      "team_aliases": [
+        {"year": 2018, "team_name": "Tampiyork"},
+        {"year": 2019, "team_name": "Ponchos"},
+        {"year": 2020, "team_name": "Ponchos"},
+        {"year": 2021, "team_name": "Ponchos"},
+        {"year": 2022, "team_name": "Mad Andrews"},
+        {"year": 2023, "team_name": "Flaccos"},
+        {"year": 2024, "team_name": "Ponchos"},
+        {"year": 2025, "team_name": "Ponchos"}
+      ]
+    },
+    {
+      "id": "mgr_03",
+      "claimed": true,
+      "display_name": "Rodrigo Rivera",
+      "swid": "{FFC0C39B-D5D0-409A-AE1E-5A40ED989C92}",
+      "initials": "RR",
+      "bio": "PLACEHOLDER — Peaked early, still talks about it.",
+      "inside_joke": "PLACEHOLDER — The XANAX years.",
+      "team_aliases": [
+        {"year": 2018, "team_name": "XANAX"},
+        {"year": 2019, "team_name": "XANAX"},
+        {"year": 2020, "team_name": "XANAX"},
+        {"year": 2021, "team_name": "Capt Gold"},
+        {"year": 2022, "team_name": "Capt Gold"},
+        {"year": 2023, "team_name": "Capt Gold"},
+        {"year": 2024, "team_name": "Zardashian"},
+        {"year": 2025, "team_name": "Zardashian"}
+      ]
+    },
+    {
+      "id": "mgr_04",
+      "claimed": true,
+      "display_name": "Jimmy Arellano",
+      "swid": "{68E6A4F4-BF6D-4F94-813B-F41061E3460D}",
+      "initials": "JA",
+      "bio": "PLACEHOLDER — Team name changes every year, results do not.",
+      "inside_joke": "PLACEHOLDER — \"tu recuerdo es mi martirio\" remains undefeated as a team name, if nothing else.",
+      "team_aliases": [
+        {"year": 2019, "team_name": "Zurdos"},
+        {"year": 2020, "team_name": "Los mazacuatos"},
+        {"year": 2021, "team_name": "chicas supercrikosas"},
+        {"year": 2022, "team_name": "tu recuerdo es mi martirio"},
+        {"year": 2023, "team_name": "La santa grifa"},
+        {"year": 2024, "team_name": "La santa grifa"},
+        {"year": 2025, "team_name": "La santa grifa"}
+      ]
+    },
+    {
+      "id": "mgr_05",
+      "claimed": true,
+      "display_name": "Gerardo Franco",
+      "_internal_note": "Confirmed for Los Frailes ('24) / Tua girls one Kupp ('25) only — took over team_id=11 fresh in 2024. The prior occupant of that slot (Atletico del Charro, 2021-2023) is a different person, Andres Astaburuaga — see mgr_13.",
+      "swid": "{AEF7B003-AF65-4453-A205-6EA2DE8BD8BE}",
+      "initials": "GF",
+      "bio": "PLACEHOLDER — Newer to the league, already has a top-5 finish.",
+      "inside_joke": "PLACEHOLDER — Best team name in the league, fight us.",
+      "team_aliases": [
+        {"year": 2024, "team_name": "Los Frailes"},
+        {"year": 2025, "team_name": "Tua girls one Kupp"}
+      ]
+    },
+    {
+      "id": "mgr_06",
+      "claimed": true,
+      "display_name": "Paco Contreras",
+      "_internal_note": "Stlan — no SWID on file at all, linked purely by team name being identical every year since 2018.",
+      "swid": null,
+      "initials": "PC",
+      "bio": "PLACEHOLDER — The most consistent name in league history: same team name every single year since day one, and the 2020/2024/2025 champion.",
+      "inside_joke": "PLACEHOLDER — Nobody has ever seen them lose in December.",
+      "team_aliases": [
+        {"year": 2018, "team_name": "Stlan"},
+        {"year": 2019, "team_name": "Stlan"},
+        {"year": 2020, "team_name": "Stlan"},
+        {"year": 2021, "team_name": "Stlan"},
+        {"year": 2022, "team_name": "Stlan"},
+        {"year": 2023, "team_name": "Stlan"},
+        {"year": 2024, "team_name": "Stlan"},
+        {"year": 2025, "team_name": "Stlan"}
+      ]
+    },
+    {
+      "id": "mgr_07",
+      "claimed": true,
+      "display_name": "Jaime Zorrilla",
+      "swid": null,
+      "initials": "JZ",
+      "bio": "PLACEHOLDER — Recovered from ESPN's league members page (no SWID on file, but team_id 2 has been his roster slot every year since 2018 — Jimmy Brown through 2019, Jaiminkah from 2020 on).",
+      "inside_joke": "PLACEHOLDER",
+      "team_aliases": [
+        {"year": 2018, "team_name": "Jimmy Brown"},
+        {"year": 2019, "team_name": "Jimmy Brown"},
+        {"year": 2020, "team_name": "Jaiminkah"},
+        {"year": 2021, "team_name": "Jaiminkah"},
+        {"year": 2022, "team_name": "Jaiminkah"},
+        {"year": 2023, "team_name": "Jaiminkah"},
+        {"year": 2024, "team_name": "Jaiminkah"},
+        {"year": 2025, "team_name": "Jaiminkah"}
+      ]
+    },
+    {
+      "id": "mgr_08",
+      "claimed": true,
+      "display_name": "Enrique Sosa",
+      "swid": null,
+      "initials": "ES",
+      "bio": "PLACEHOLDER — Recovered from ESPN's league members page (no SWID on file, but team_id 4 has been his roster slot every year since 2018 — Los Yoyos through 2023, SosaesGay in 2024, Enriqueciendose in 2025).",
+      "inside_joke": "PLACEHOLDER",
+      "team_aliases": [
+        {"year": 2018, "team_name": "Los Yoyos"},
+        {"year": 2019, "team_name": "Los Yoyos"},
+        {"year": 2020, "team_name": "Los Yoyos"},
+        {"year": 2021, "team_name": "Los Yoyos"},
+        {"year": 2022, "team_name": "Los Yoyos"},
+        {"year": 2023, "team_name": "Los Yoyos"},
+        {"year": 2024, "team_name": "SosaesGay"},
+        {"year": 2025, "team_name": "Enriqueciendose"}
+      ]
+    },
+    {
+      "id": "mgr_09",
+      "claimed": true,
+      "display_name": "Julian Alvarez",
+      "_internal_note": "Founding 2018 member (team_id=8, 'Gallos Blancos') — active in the WhatsApp chat from day one, then quit right before the 2019 draft ('Yo les fallo esta season :/' then left the group), rejoined Aug 2020 on a fresh slot (team_id=3, 'BlackPantha' onward). No SWID ever recorded in any year. Full name in group chat: Julian Alvarez Del Castillo.",
+      "swid": null,
+      "initials": "JAC",
+      "bio": "PLACEHOLDER",
+      "inside_joke": "PLACEHOLDER",
+      "team_aliases": [
+        {"year": 2018, "team_name": "Gallos Blancos"},
+        {"year": 2020, "team_name": "BlackPantha"},
+        {"year": 2021, "team_name": "ATLETI SAN PANCHO"},
+        {"year": 2022, "team_name": "ATLETI SAN PANCHO"},
+        {"year": 2023, "team_name": "Atleti San Pancho"},
+        {"year": 2024, "team_name": "ATLETI SAN PANCHO"},
+        {"year": 2025, "team_name": "ATLETI SAN PANCHO"}
+      ]
+    },
+    {
+      "id": "mgr_10",
+      "claimed": true,
+      "display_name": "Carlos Altamirano",
+      "_internal_note": "team_id=7, 2018-2022 only — handed off the slot to Humberto Ruiz (mgr_15) starting 2023. ESPN never recorded a SWID for this slot in any year. Renamed once (C mama i -> Masiosexo).",
+      "swid": null,
+      "initials": "CA",
+      "bio": "PLACEHOLDER",
+      "inside_joke": "PLACEHOLDER",
+      "team_aliases": [
+        {"year": 2018, "team_name": "C mama i"},
+        {"year": 2019, "team_name": "C mama i"},
+        {"year": 2020, "team_name": "C mama i"},
+        {"year": 2021, "team_name": "C mama i"},
+        {"year": 2022, "team_name": "Masiosexo"}
+      ]
+    },
+    {
+      "id": "mgr_11",
+      "claimed": true,
+      "display_name": "Julian El Morras",
+      "_internal_note": "team_id=10, 2019-2025 (team was not in the league in 2018, an 8-team season). Same person the whole time by team_id continuity, no SWID ever recorded. Renamed 5 times.",
+      "swid": null,
+      "initials": "JEM",
+      "bio": "PLACEHOLDER",
+      "inside_joke": "PLACEHOLDER",
+      "team_aliases": [
+        {"year": 2019, "team_name": "Crikosoyloko"},
+        {"year": 2020, "team_name": "Licenciado Valeriano"},
+        {"year": 2021, "team_name": "Gaylan"},
+        {"year": 2022, "team_name": "Jake Long"},
+        {"year": 2023, "team_name": "Jake Long"},
+        {"year": 2024, "team_name": "Jake Long"},
+        {"year": 2025, "team_name": "Hubert"}
+      ]
+    },
+    {
+      "id": "mgr_12",
+      "claimed": true,
+      "display_name": "Oscar Jimenez",
+      "_internal_note": "team_id=12, 2021-2025 (team wasn't in the league before the 2021 expansion to 12 teams). Same person the whole time by team_id continuity, no SWID ever recorded. Renamed twice.",
+      "swid": null,
+      "initials": "OJ",
+      "bio": "PLACEHOLDER",
+      "inside_joke": "PLACEHOLDER",
+      "team_aliases": [
+        {"year": 2021, "team_name": "El Nino Polla"},
+        {"year": 2022, "team_name": "xxxtentacion"},
+        {"year": 2023, "team_name": "Drake"},
+        {"year": 2024, "team_name": "Drake"},
+        {"year": 2025, "team_name": "Drake"}
+      ]
+    },
+    {
+      "id": "mgr_13",
+      "claimed": true,
+      "display_name": "Andres Astaburuaga",
+      "_internal_note": "team_id=11, 2021-2023 only — held 'Atletico del Charro' before Gerardo Franco (mgr_05) took over the same slot fresh in 2024. Confirmed as a distinct person from Gerardo. No SWID ever recorded for these 3 years.",
+      "swid": null,
+      "initials": "AA",
+      "bio": "PLACEHOLDER",
+      "inside_joke": "PLACEHOLDER",
+      "team_aliases": [
+        {"year": 2021, "team_name": "Atletico del Charro"},
+        {"year": 2022, "team_name": "Atletico del Charro"},
+        {"year": 2023, "team_name": "Atletico del Charro"}
+      ]
+    },
+    {
+      "id": "mgr_14",
+      "claimed": true,
+      "display_name": "Chu Chu",
+      "_internal_note": "team_id=8, 2019 only — filled Julian Alvarez's vacant slot for the one season he sat out. Has an actual SWID on file, unlike most other manual links here. WhatsApp contact: '~ Chuchu 🚂🚂', an Austin friend of MaxBetATX's added to the group the same day.",
+      "swid": "{2FFD4018-C347-49EE-9DAB-68A64BA3CD0F}",
+      "initials": "CC",
+      "bio": "PLACEHOLDER",
+      "inside_joke": "PLACEHOLDER",
+      "team_aliases": [
+        {"year": 2019, "team_name": "Dale Jaiba"}
+      ]
+    },
+    {
+      "id": "mgr_15",
+      "claimed": true,
+      "display_name": "Humberto Ruiz",
+      "_internal_note": "team_id=7, 2023-2025 — took over Carlos Altamirano's slot (mgr_10) starting 2023. WhatsApp contact name is '~ Humberthor Ruiz' (a Humberto+Thor nickname); no SWID ever recorded for these years.",
+      "swid": null,
+      "initials": "HR",
+      "bio": "PLACEHOLDER",
+      "inside_joke": "PLACEHOLDER",
+      "team_aliases": [
+        {"year": 2023, "team_name": "Show me your TDs"},
+        {"year": 2024, "team_name": "Show me your TDs"},
+        {"year": 2025, "team_name": "Pukachu"}
+      ]
+    }
+  ]
+}

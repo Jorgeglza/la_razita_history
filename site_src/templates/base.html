@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ data.league.name }} — Fantasy Football League HQ</title>
+<meta name="description" content="{{ data.league.name }} fantasy football league headquarters — champions, records, rules, and rivalries since {{ data.league.founded }}.">
+<link rel="icon" type="image/png" href="static/img/mascot-icon.png">
+<link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+
+<header class="topnav">
+  <div class="wrap">
+    <a class="brand" href="#top">
+      <img class="brand-mark" src="static/img/mascot-icon.png" alt="">
+      {{ data.league.name }}
+    </a>
+    <nav>
+      <a href="#glance">Glance</a>
+      <a href="#podium">Podium</a>
+      <a href="#shame">Wall of Shame</a>
+      <a href="#standings">All-Time</a>
+      <a href="#managers">Managers</a>
+      {% if data.league_info.section_visibility.rivalries %}<a href="#rivalries">Rivalries</a>{% endif %}
+      {% if data.league_info.section_visibility.futures_ballot %}<a href="#futures">Futures</a>{% endif %}
+      {% if data.league_info.section_visibility.draft_countdown %}<a href="#draft">Draft</a>{% endif %}
+    </nav>
+  </div>
+</header>
+
+{% block content %}{% endblock %}
+
+<footer>
+  <div class="wrap">
+    {% if data.league_info.taglines %}
+    <div class="taglines">
+      {% for line in data.league_info.taglines %}
+        <span>{{ line }}</span>{% if not loop.last %}<span class="crab-icon">🦀</span>{% endif %}
+      {% endfor %}
+    </div>
+    {% endif %}
+    <p>{{ data.league.name }} Fantasy Football League &middot; Est. {{ data.league.founded }} &middot;
+      Built from {{ data.league.years|length }} seasons of league data &middot;
+      Generated {{ data.generated_at[:10] }}</p>
+  </div>
+</footer>
+
+<script id="league-data" type="application/json">{{ data_json|safe }}</script>
+<script src="static/js/main.js"></script>
+</body>
+</html>

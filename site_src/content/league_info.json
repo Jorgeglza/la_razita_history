@@ -1,0 +1,54 @@
+{
+  "_readme": "This file drives the operational + personality sections that aren't in the ESPN data at all: the at-a-glance panel, draft countdown, rivalries, futures/ballot predictions, and tribute copy. Most of it is still placeholder prose and is HIDDEN from the live site via section_visibility below — see CONTENT_TODO.md at the repo root for what's hidden and how to turn each piece back on once it's real.",
+
+  "section_visibility": {
+    "_readme": "Each flag gates one section/feature in index.html. Flip to true once the corresponding content below is real, then rerun build_site.py.",
+    "rivalries": false,
+    "futures_ballot": false,
+    "tribute": false,
+    "draft_countdown": false,
+    "show_ops_details": false,
+    "show_manager_bios": false
+  },
+
+  "league_at_a_glance": {
+    "note": "Scoring/roster figures below are pulled live from the DB by build_site.py for the most recent season — this block only holds the parts ESPN doesn't expose (dates, deadlines in plain language, waiver-day habits).",
+    "draft_date_iso": "2026-09-05T19:00:00-05:00",
+    "draft_location": "PLACEHOLDER — Jorge's house / Discord voice / wherever",
+    "trade_deadline_text": "PLACEHOLDER — Trades lock the Tuesday before Thanksgiving. 48-hour review window, 5 vetoes to reverse a trade.",
+    "waiver_text": "PLACEHOLDER — FAAB waivers, $100 budget, process runs daily. Continuous waivers, no season-long free-agent locks.",
+    "playoff_text": "PLACEHOLDER — Top 6 make the playoffs, seeded by record then total points. Championship is a 3-week bracket."
+  },
+
+  "rivalries": [
+    {
+      "title": "PLACEHOLDER — The Ponchos–Santa Grifa Border War",
+      "managers": ["mgr_02", "mgr_04"],
+      "blurb": "PLACEHOLDER — Two franchises that rebrand every year but have somehow drafted against each other in week 1 more than anyone else. Real head-to-head records aren't available (ESPN stopped serving weekly matchup data for past seasons — see README), so this is vibes-based until someone finds an old screenshot."
+    },
+    {
+      "title": "PLACEHOLDER — Stlan vs. Everyone",
+      "managers": ["mgr_06"],
+      "blurb": "PLACEHOLDER — Three championships (2020, 2024, 2025) and the same team name for eight straight years. The league's designated villain."
+    }
+  ],
+
+  "futures_ballot": {
+    "season": "2026",
+    "note": "PLACEHOLDER — pre-season predictions / bold takes. Add one entry per manager or per prop bet.",
+    "entries": [
+      {"prop": "PLACEHOLDER — Will Stlan four-peat as a top-3 finisher?", "odds": "PLACEHOLDER — even money"},
+      {"prop": "PLACEHOLDER — Last place finisher from 2025 makes the playoffs?", "odds": "PLACEHOLDER — long shot"},
+      {"prop": "PLACEHOLDER — A new team name record gets set (most rebrands in league history)?", "odds": "PLACEHOLDER — is this even a bet"}
+    ]
+  },
+
+  "tribute": {
+    "title": "PLACEHOLDER — In Memoriam / Tribute",
+    "body": "PLACEHOLDER — Space for honoring a departed league member, a retired team name, or just the group chat's fallen soldiers. Delete this section if not needed, or use it for a league history retrospective instead."
+  },
+
+  "taglines": [],
+
+  "hero_tagline": "Culo si no"
+}

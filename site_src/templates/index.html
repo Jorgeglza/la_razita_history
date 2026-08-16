@@ -1,0 +1,316 @@
+{% extends "base.html" %}
+{% block content %}
+
+<section class="hero" id="top">
+  <div class="wrap">
+    <img class="hero-logo" src="static/img/logo-primary.png" alt="{{ data.league.name }} logo">
+    <p class="tagline">{{ data.league_info.hero_tagline }}</p>
+    <div class="stat-row">
+      <span class="stat-pill"><b>{{ data.league.years|length }}</b> seasons archived</span>
+      <span class="stat-pill"><b>{{ data.current_season.size or data.current_season.teams|length }}</b> teams, {{ data.current_season.year }}</span>
+      <span class="stat-pill"><b>{{ data.managers|length }}</b> manager profiles</span>
+      <span class="stat-pill"><b>{{ data.all_time_standings|length }}</b> franchises tracked all-time</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== League at a Glance ===================== -->
+<section class="panel" id="glance">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="kicker">Operations</div>
+      <h2>League at a Glance</h2>
+      <p class="desc">Everything a manager needs before the commissioner has to explain it again in the group chat. Scoring/roster figures come straight from the {{ data.current_season.year }} season data; deadlines and habits below are set by hand each year.</p>
+    </div>
+    <div class="glance-grid">
+      <div class="glance-item">
+        <div class="label">Scoring Format</div>
+        <div class="value">{{ data.current_season.scoring_type or "—" }}</div>
+      </div>
+      <div class="glance-item">
+        <div class="label">League Size</div>
+        <div class="value">{{ data.current_season.size or data.current_season.teams|length }} teams</div>
+      </div>
+      <div class="glance-item">
+        <div class="label">Playoff Field</div>
+        <div class="value">Top {{ data.current_season.playoff_team_count or "—" }}</div>
+        {% if data.league_info.section_visibility.show_ops_details %}
+        <div class="sub">{{ data.league_info.league_at_a_glance.playoff_text }}</div>
+        {% endif %}
+      </div>
+      {% if data.league_info.section_visibility.show_ops_details %}
+      <div class="glance-item">
+        <div class="label">Draft</div>
+        <div class="value">{{ data.league_info.league_at_a_glance.draft_date_iso[:10] }}</div>
+        <div class="sub">{{ data.league_info.league_at_a_glance.draft_location }}</div>
+      </div>
+      <div class="glance-item">
+        <div class="label">Trade Deadline</div>
+        <div class="value">Rules</div>
+        <div class="sub">{{ data.league_info.league_at_a_glance.trade_deadline_text }}</div>
+      </div>
+      <div class="glance-item">
+        <div class="label">Waivers</div>
+        <div class="value">Rules</div>
+        <div class="sub">{{ data.league_info.league_at_a_glance.waiver_text }}</div>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+{% if data.league_info.section_visibility.draft_countdown %}
+<!-- ===================== Draft Countdown ===================== -->
+<section class="panel" id="draft">
+  <div class="wrap text-center">
+    <div class="section-head">
+      <div class="kicker">Mark your calendar</div>
+      <h2>Draft Countdown</h2>
+      <p class="desc mt-0" style="margin-left:auto;margin-right:auto;">Counting down to the next draft. Update the date in <code>site_src/content/league_info.json</code> once it's locked in.</p>
+    </div>
+    <div id="draft-countdown" data-target="{{ data.league_info.league_at_a_glance.draft_date_iso }}">
+      <div class="countdown-label" style="color:#556;font-size:0.85rem;margin-bottom:4px;">Time until kickoff of the {{ data.league_info.futures_ballot.season }} draft</div>
+      <div class="countdown">
+        <div class="unit"><span class="num" data-unit="days">00</span><span class="unit-label">Days</span></div>
+        <div class="unit"><span class="num" data-unit="hours">00</span><span class="unit-label">Hours</span></div>
+        <div class="unit"><span class="num" data-unit="minutes">00</span><span class="unit-label">Minutes</span></div>
+        <div class="unit"><span class="num" data-unit="seconds">00</span><span class="unit-label">Seconds</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<!-- ===================== Podium History ===================== -->
+<section class="panel" id="podium">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="kicker">Institutional memory</div>
+      <h2>Podium History</h2>
+      <p class="desc">Champion, runner-up, and the season's points leader for every year on record.</p>
+    </div>
+    {% for s in data.seasons %}
+    <div class="podium-year">
+      <div class="yr">{{ s.year }}</div>
+      <div class="podium-row">
+        {% if s.champion %}
+        <span class="badge gold">🏆 {{ s.champion.team_name }} ({{ s.champion.wins }}-{{ s.champion.losses }})</span>
+        {% endif %}
+        {% if s.runner_up %}
+        <span class="badge silver">🥈 {{ s.runner_up.team_name }} ({{ s.runner_up.wins }}-{{ s.runner_up.losses }})</span>
+        {% endif %}
+        {% if s.points_champ %}
+        <span class="badge points">⚡ Points leader: {{ s.points_champ.team_name }} ({{ "%.1f"|format(s.points_champ.points_for) }})</span>
+        {% endif %}
+        {% if s.last_place %}
+        <span class="badge shame">💩 {{ s.last_place.team_name }}</span>
+        {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<!-- ===================== Wall of Shame ===================== -->
+<section class="panel" id="shame">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="kicker">Hall of Ignominy</div>
+      <h2>Wall of Shame</h2>
+      <p class="desc">Last place, every year, forever. No statute of limitations.</p>
+    </div>
+    <div class="shame-grid">
+      {% for t in data.wall_of_shame %}
+      <div class="shame-card">
+        <div class="yr">{{ t.year }}</div>
+        <div class="team">{{ t.team_name }}</div>
+        <div>{{ t.wins }}-{{ t.losses }}{% if t.ties %}-{{ t.ties }}{% endif %} &middot; {{ "%.1f"|format(t.points_for) }} pts</div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- ===================== All-Time Standings ===================== -->
+<section class="panel" id="standings">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="kicker">The ledger</div>
+      <h2>All-Time Standings</h2>
+      <p class="desc">Aggregated across every season. Rows flagged <span class="placeholder-flag">Unlinked</span> either couldn't be matched to a manager profile at all (ESPN didn't record an owner for that team-season — grouped by team name instead), or are correctly tracked but don't have a confirmed real name yet. Fix the former with a <code>swid</code>/<code>team_aliases</code> entry in <code>managers.json</code>; fix the latter by setting <code>claimed: true</code> with a real <code>display_name</code>. Click a column to sort, click a row to see its year-by-year breakdown.</p>
+    </div>
+    <div class="table-wrap">
+      <table data-sortable data-paired-rows>
+        <thead>
+          <tr>
+            <th data-sort-key="name" data-sort-type="string">Manager / Franchise</th>
+            <th data-sort-key="titles" data-sort-type="number">🏆</th>
+            <th data-sort-key="ru" data-sort-type="number">🥈</th>
+            <th data-sort-key="shame" data-sort-type="number">💩</th>
+            <th data-sort-key="wins" data-sort-type="number" class="sorted" data-sort-dir="desc">W</th>
+            <th data-sort-key="losses" data-sort-type="number">L</th>
+            <th data-sort-key="pct" data-sort-type="number">Win%</th>
+            <th data-sort-key="pf" data-sort-type="number">Points For</th>
+            <th data-sort-key="pa" data-sort-type="number">Points Against</th>
+            <th data-sort-key="seasons" data-sort-type="number">Seasons</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for b in data.all_time_standings %}
+          <tr class="standings-row" tabindex="0" role="button" aria-expanded="false">
+            <td data-name="{{ b.display_name }}"><span class="expand-caret">▸</span> {{ b.display_name }}{% if b.unlinked %}<span class="placeholder-flag">Unlinked</span>{% endif %}</td>
+            <td data-titles="{{ b.championships }}">{{ b.championships }}</td>
+            <td data-ru="{{ b.runner_ups }}">{{ b.runner_ups }}</td>
+            <td data-shame="{{ b.wall_of_shame }}">{{ b.wall_of_shame }}</td>
+            <td data-wins="{{ b.wins }}">{{ b.wins }}</td>
+            <td data-losses="{{ b.losses }}">{{ b.losses }}</td>
+            <td data-pct="{{ b.win_pct }}">{{ "%.3f"|format(b.win_pct) }}</td>
+            <td data-pf="{{ b.points_for }}">{{ b.points_for|commas }}</td>
+            <td data-pa="{{ b.points_against }}">{{ b.points_against|commas }}</td>
+            <td data-seasons="{{ b.seasons_played }}">{{ b.seasons_played }}</td>
+          </tr>
+          <tr class="standings-detail" hidden>
+            <td colspan="10">
+              <table class="detail-table">
+                <thead>
+                  <tr>
+                    <th>Year</th>
+                    <th>Team Name</th>
+                    <th>Final Rank</th>
+                    <th>W</th>
+                    <th>L</th>
+                    <th>T</th>
+                    <th>Points For</th>
+                    <th>Points Against</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {% for s in b.by_year %}
+                  <tr>
+                    <td>{{ s.year }}</td>
+                    <td>{{ s.team_name }}</td>
+                    <td>{% if s.final_rank == 1 %}🏆 1st{% elif s.final_rank == 2 %}🥈 2nd{% else %}{{ s.final_rank }}{% endif %}</td>
+                    <td>{{ s.wins }}</td>
+                    <td>{{ s.losses }}</td>
+                    <td>{{ s.ties }}</td>
+                    <td>{{ s.points_for|commas }}</td>
+                    <td>{{ s.points_against|commas }}</td>
+                  </tr>
+                  {% endfor %}
+                </tbody>
+              </table>
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+
+    {% if data.records %}
+    <div class="card-grid" style="margin-top:22px;">
+      <div class="card">
+        <div class="card-title">Highest single-season points</div>
+        <p>{{ data.records.highest_single_season_points.team_name }} — {{ data.records.highest_single_season_points.points_for|commas }} pts ({{ data.records.highest_single_season_points.year }})</p>
+      </div>
+      <div class="card">
+        <div class="card-title">Lowest single-season points</div>
+        <p>{{ data.records.lowest_single_season_points.team_name }} — {{ data.records.lowest_single_season_points.points_for|commas }} pts ({{ data.records.lowest_single_season_points.year }})</p>
+      </div>
+      <div class="card">
+        <div class="card-title">Best single-season record</div>
+        <p>{{ data.records.best_single_season_record.team_name }} — {{ data.records.best_single_season_record.wins }}-{{ data.records.best_single_season_record.losses }} ({{ data.records.best_single_season_record.year }})</p>
+      </div>
+      <div class="card">
+        <div class="card-title">Worst single-season record</div>
+        <p>{{ data.records.worst_single_season_record.team_name }} — {{ data.records.worst_single_season_record.wins }}-{{ data.records.worst_single_season_record.losses }} ({{ data.records.worst_single_season_record.year }})</p>
+      </div>
+    </div>
+    <p class="desc" style="margin-top:14px;font-size:0.8rem;">{{ data.records.note }}</p>
+    {% endif %}
+  </div>
+</section>
+
+<!-- ===================== Manager Cards ===================== -->
+<section class="panel" id="managers">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="kicker">The ledger, by person</div>
+      <h2>Manager Cards</h2>
+      <p class="desc">Trophy cases and team-name history per manager. Cards marked <span class="placeholder-flag">Name TBD</span> are linked and tracked correctly across years but don't have a confirmed real name yet — add one in <code>site_src/content/managers.json</code> (set <code>claimed: true</code>) and rerun the build.</p>
+    </div>
+    <div class="card-grid">
+      {% for m in data.managers %}
+      <div class="card manager-card">
+        <div class="avatar">{{ m.initials }}</div>
+        <div>
+          <div class="name">{% if m.claimed and m.display_name %}{{ m.display_name }}{% else %}Unclaimed Franchise<span class="placeholder-flag">Name TBD</span>{% endif %}</div>
+          {% if data.league_info.section_visibility.show_manager_bios %}
+          <div class="bio">{{ m.bio }}</div>
+          <div class="joke">{{ m.inside_joke }}</div>
+          {% endif %}
+          <div class="trophy-row">
+            {% if m.stats.championships %}<span class="trophy">🏆 x{{ m.stats.championships }}</span>{% endif %}
+            {% if m.stats.runner_ups %}<span class="trophy">🥈 x{{ m.stats.runner_ups }}</span>{% endif %}
+            {% if m.stats.wall_of_shame %}<span class="trophy">💩 x{{ m.stats.wall_of_shame }}</span>{% endif %}
+            <span class="trophy">{{ m.stats.wins }}-{{ m.stats.losses }} all-time</span>
+          </div>
+          <div class="alias-list">Team names: {% for a in m.team_aliases %}{{ a.team_name }} ({{ a.year }}){% if not loop.last %}, {% endif %}{% endfor %}</div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% if data.league_info.section_visibility.rivalries %}
+<!-- ===================== Rivalries ===================== -->
+<section class="panel" id="rivalries">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="kicker">Beef</div>
+      <h2>Rivalries</h2>
+      <p class="desc">Head-to-head matchup history isn't available from ESPN for past seasons (see README), so these are written up by hand. Edit <code>league_info.json</code> to keep them current.</p>
+    </div>
+    <div class="card-grid">
+      {% for r in data.league_info.rivalries %}
+      <div class="card rivalry-card">
+        <div class="card-title">{{ r.title }}</div>
+        <p>{{ r.blurb }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if data.league_info.section_visibility.futures_ballot %}
+<!-- ===================== Futures & Ballot ===================== -->
+<section class="panel" id="futures">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="kicker">{{ data.league_info.futures_ballot.season }} Season</div>
+      <h2>Futures &amp; Ballot</h2>
+      <p class="desc">{{ data.league_info.futures_ballot.note }}</p>
+    </div>
+    <ul class="futures-list">
+      {% for e in data.league_info.futures_ballot.entries %}
+      <li><span>{{ e.prop }}</span><span class="odds">{{ e.odds }}</span></li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+{% endif %}
+
+{% if data.league_info.section_visibility.tribute %}
+<!-- ===================== Tribute ===================== -->
+<section class="panel" id="tribute">
+  <div class="wrap">
+    <div class="tribute">
+      <h3>{{ data.league_info.tribute.title }}</h3>
+      <p>{{ data.league_info.tribute.body }}</p>
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% endblock %}
