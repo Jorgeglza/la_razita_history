@@ -141,6 +141,11 @@
     </div>
     <div class="table-wrap">
       <table data-sortable data-paired-rows>
+        <colgroup>
+          <col style="width:30%"><col style="width:5%"><col style="width:5%"><col style="width:5%">
+          <col style="width:6%"><col style="width:6%"><col style="width:8%">
+          <col style="width:13%"><col style="width:13%"><col style="width:9%">
+        </colgroup>
         <thead>
           <tr>
             <th data-sort-key="name" data-sort-type="string">Manager / Franchise</th>
@@ -172,6 +177,11 @@
           <tr class="standings-detail" hidden>
             <td colspan="10">
               <table class="detail-table">
+                <colgroup>
+                  <col style="width:8%"><col style="width:27%"><col style="width:10%">
+                  <col style="width:6%"><col style="width:6%"><col style="width:8%">
+                  <col style="width:13%"><col style="width:22%">
+                </colgroup>
                 <thead>
                   <tr>
                     <th>Year</th>
@@ -179,7 +189,7 @@
                     <th>Final Rank</th>
                     <th>W</th>
                     <th>L</th>
-                    <th>T</th>
+                    <th>Win%</th>
                     <th>Points For</th>
                     <th>Points Against</th>
                   </tr>
@@ -191,8 +201,8 @@
                     <td>{{ s.team_name }}</td>
                     <td>{% if s.final_rank == 1 %}🏆 1st{% elif s.final_rank == 2 %}🥈 2nd{% else %}{{ s.final_rank }}{% endif %}</td>
                     <td>{{ s.wins }}</td>
-                    <td>{{ s.losses }}</td>
-                    <td>{{ s.ties }}</td>
+                    <td>{{ s.losses }}{% if s.ties %} ({{ s.ties }}T){% endif %}</td>
+                    <td>{{ "%.3f"|format(s.win_pct) }}</td>
                     <td>{{ s.points_for|commas }}</td>
                     <td>{{ s.points_against|commas }}</td>
                   </tr>

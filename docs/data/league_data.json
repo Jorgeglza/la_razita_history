@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T04:46:32.942481+00:00",
+  "generated_at": "2026-08-16T03:20:33.543757+00:00",
   "league": {
     "name": "La Razita",
     "founded": 2018,
@@ -2578,6 +2578,7 @@
           "wins": 7,
           "losses": 7,
           "ties": 0,
+          "win_pct": 0.5,
           "points_for": 1452.8,
           "points_against": 1467.7,
           "final_rank": 2
@@ -2588,6 +2589,7 @@
           "wins": 8,
           "losses": 6,
           "ties": 0,
+          "win_pct": 0.571,
           "points_for": 1446.82,
           "points_against": 1459.04,
           "final_rank": 5
@@ -2598,6 +2600,7 @@
           "wins": 10,
           "losses": 4,
           "ties": 0,
+          "win_pct": 0.714,
           "points_for": 1569.52,
           "points_against": 1430.8,
           "final_rank": 1
@@ -2608,6 +2611,7 @@
           "wins": 9,
           "losses": 5,
           "ties": 0,
+          "win_pct": 0.643,
           "points_for": 1431.42,
           "points_against": 1344.2,
           "final_rank": 4
@@ -2618,6 +2622,7 @@
           "wins": 9,
           "losses": 5,
           "ties": 0,
+          "win_pct": 0.643,
           "points_for": 1317.54,
           "points_against": 1212.88,
           "final_rank": 6
@@ -2628,6 +2633,7 @@
           "wins": 9,
           "losses": 5,
           "ties": 0,
+          "win_pct": 0.643,
           "points_for": 1354.96,
           "points_against": 1203.98,
           "final_rank": 2
@@ -2638,6 +2644,7 @@
           "wins": 10,
           "losses": 4,
           "ties": 0,
+          "win_pct": 0.714,
           "points_for": 1465.56,
           "points_against": 1339.9,
           "final_rank": 2
@@ -2648,6 +2655,7 @@
           "wins": 11,
           "losses": 3,
           "ties": 0,
+          "win_pct": 0.786,
           "points_for": 1638.28,
           "points_against": 1417.72,
           "final_rank": 4
@@ -2685,6 +2693,7 @@
           "wins": 8,
           "losses": 6,
           "ties": 0,
+          "win_pct": 0.571,
           "points_for": 1542.22,
           "points_against": 1397.02,
           "final_rank": 1
@@ -2695,6 +2704,7 @@
           "wins": 10,
           "losses": 4,
           "ties": 0,
+          "win_pct": 0.714,
           "points_for": 1601.88,
           "points_against": 1449.34,
           "final_rank": 1
@@ -2705,6 +2715,7 @@
           "wins": 6,
           "losses": 8,
           "ties": 0,
+          "win_pct": 0.429,
           "points_for": 1385.18,
           "points_against": 1423.18,
           "final_rank": 10
@@ -2715,6 +2726,7 @@
           "wins": 9,
           "losses": 5,
           "ties": 0,
+          "win_pct": 0.643,
           "points_for": 1396.5,
           "points_against": 1315.3,
           "final_rank": 3
@@ -2725,6 +2737,7 @@
           "wins": 11,
           "losses": 3,
           "ties": 0,
+          "win_pct": 0.786,
           "points_for": 1391.66,
           "points_against": 1130.18,
           "final_rank": 4
@@ -2735,6 +2748,7 @@
           "wins": 9,
           "losses": 5,
           "ties": 0,
+          "win_pct": 0.643,
           "points_for": 1320.08,
           "points_against": 1316.76,
           "final_rank": 1
@@ -2745,6 +2759,7 @@
           "wins": 1,
           "losses": 13,
           "ties": 0,
+          "win_pct": 0.071,
           "points_for": 997.18,
           "points_against": 1365.44,
           "final_rank": 10
@@ -2755,6 +2770,7 @@
           "wins": 10,
           "losses": 4,
           "ties": 0,
+          "win_pct": 0.714,
           "points_for": 1663.66,
           "points_against": 1295.34,
           "final_rank": 3
@@ -2792,6 +2808,7 @@
           "wins": 5,
           "losses": 9,
           "ties": 0,
+          "win_pct": 0.357,
           "points_for": 1324.18,
           "points_against": 1437.96,
           "final_rank": 11
@@ -2802,6 +2819,7 @@
           "wins": 10,
           "losses": 4,
           "ties": 0,
+          "win_pct": 0.714,
           "points_for": 1462.04,
           "points_against": 1370.0,
           "final_rank": 3
@@ -2812,6 +2830,7 @@
           "wins": 6,
           "losses": 8,
           "ties": 0,
+          "win_pct": 0.429,
           "points_for": 1457.24,
           "points_against": 1374.7,
           "final_rank": 8
@@ -2822,6 +2841,7 @@
           "wins": 9,
           "losses": 5,
           "ties": 0,
+          "win_pct": 0.643,
           "points_for": 1558.5,
           "points_against": 1402.82,
           "final_rank": 1
@@ -2832,6 +2852,7 @@
           "wins": 8,
           "losses": 6,
           "ties": 0,
+          "win_pct": 0.571,
           "points_for": 1306.0,
           "points_against": 1175.0,
           "final_rank": 5
@@ -2842,6 +2863,7 @@
           "wins": 7,
           "losses": 7,
           "ties": 0,
+          "win_pct": 0.5,
           "points_for": 1411.84,
           "points_against": 1375.4,
           "final_rank": 7
@@ -2852,6 +2874,7 @@
           "wins": 10,
           "losses": 4,
           "ties": 0,
+          "win_pct": 0.714,
           "points_for": 1552.8,
           "points_against": 1294.48,
           "final_rank": 3
@@ -2862,6 +2885,7 @@
           "wins": 8,
           "losses": 6,
           "ties": 0,
+          "win_pct": 0.571,
           "points_for": 1589.96,
           "points_against": 1603.06,
           "final_rank": 1
@@ -2899,6 +2923,7 @@
           "wins": 10,
           "losses": 4,
           "ties": 0,
+          "win_pct": 0.714,
           "points_for": 1632.88,
           "points_against": 1346.98,
           "final_rank": 4
@@ -2909,6 +2934,7 @@
           "wins": 3,
           "losses": 11,
           "ties": 0,
+          "win_pct": 0.214,
           "points_for": 1244.96,
           "points_against": 1458.78,
           "final_rank": 11
@@ -2919,6 +2945,7 @@
           "wins": 9,
           "losses": 5,
           "ties": 0,
+          "win_pct": 0.643,
           "points_for": 1502.64,
           "points_against": 1419.62,
           "final_rank": 6
@@ -2929,6 +2956,7 @@
           "wins": 8,
           "losses": 6,
           "ties": 0,
+          "win_pct": 0.571,
           "points_for": 1649.68,
           "points_against": 1555.66,
           "final_rank": 2
@@ -2939,6 +2967,7 @@
           "wins": 5,
           "losses": 9,
           "ties": 0,
+          "win_pct": 0.357,
           "points_for": 1281.78,
           "points_against": 1352.22,
           "final_rank": 10
@@ -2949,6 +2978,7 @@
           "wins": 11,
           "losses": 3,
           "ties": 0,
+          "win_pct": 0.786,
           "points_for": 1526.96,
           "points_against": 1348.28,
           "final_rank": 4
@@ -2959,6 +2989,7 @@
           "wins": 8,
           "losses": 6,
           "ties": 0,
+          "win_pct": 0.571,
           "points_for": 1265.68,
           "points_against": 1206.26,
           "final_rank": 5
@@ -2969,6 +3000,7 @@
           "wins": 4,
           "losses": 10,
           "ties": 0,
+          "win_pct": 0.286,
           "points_for": 1288.1,
           "points_against": 1535.86,
           "final_rank": 7
@@ -3006,6 +3038,7 @@
           "wins": 8,
           "losses": 6,
           "ties": 0,
+          "win_pct": 0.571,
           "points_for": 1376.26,
           "points_against": 1391.06,
           "final_rank": 6
@@ -3016,6 +3049,7 @@
           "wins": 9,
           "losses": 5,
           "ties": 0,
+          "win_pct": 0.643,
           "points_for": 1568.38,
           "points_against": 1441.38,
           "final_rank": 2
@@ -3026,6 +3060,7 @@
           "wins": 6,
           "losses": 8,
           "ties": 0,
+          "win_pct": 0.429,
           "points_for": 1347.32,
           "points_against": 1451.54,
           "final_rank": 11
@@ -3036,6 +3071,7 @@
           "wins": 6,
           "losses": 8,
           "ties": 0,
+          "win_pct": 0.429,
           "points_for": 1394.26,
           "points_against": 1409.36,
           "final_rank": 8
@@ -3046,6 +3082,7 @@
           "wins": 9,
           "losses": 5,
           "ties": 0,
+          "win_pct": 0.643,
           "points_for": 1379.26,
           "points_against": 1327.54,
           "final_rank": 3
@@ -3056,6 +3093,7 @@
           "wins": 4,
           "losses": 10,
           "ties": 0,
+          "win_pct": 0.286,
           "points_for": 1214.2,
           "points_against": 1365.24,
           "final_rank": 9
@@ -3066,6 +3104,7 @@
           "wins": 8,
           "losses": 6,
           "ties": 0,
+          "win_pct": 0.571,
           "points_for": 1281.6,
           "points_against": 1177.62,
           "final_rank": 8
@@ -3076,6 +3115,7 @@
           "wins": 4,
           "losses": 10,
           "ties": 0,
+          "win_pct": 0.286,
           "points_for": 1327.22,
           "points_against": 1405.68,
           "final_rank": 6
@@ -3113,6 +3153,7 @@
           "wins": 3,
           "losses": 11,
           "ties": 0,
+          "win_pct": 0.214,
           "points_for": 1088.82,
           "points_against": 1337.52,
           "final_rank": 12
@@ -3123,6 +3164,7 @@
           "wins": 7,
           "losses": 7,
           "ties": 0,
+          "win_pct": 0.5,
           "points_for": 1545.08,
           "points_against": 1516.58,
           "final_rank": 7
@@ -3133,6 +3175,7 @@
           "wins": 5,
           "losses": 9,
           "ties": 0,
+          "win_pct": 0.357,
           "points_for": 1276.52,
           "points_against": 1383.62,
           "final_rank": 9
@@ -3143,6 +3186,7 @@
           "wins": 9,
           "losses": 5,
           "ties": 0,
+          "win_pct": 0.643,
           "points_for": 1334.86,
           "points_against": 1468.34,
           "final_rank": 6
@@ -3153,6 +3197,7 @@
           "wins": 3,
           "losses": 11,
           "ties": 0,
+          "win_pct": 0.214,
           "points_for": 1183.34,
           "points_against": 1349.82,
           "final_rank": 8
@@ -3163,6 +3208,7 @@
           "wins": 8,
           "losses": 6,
           "ties": 0,
+          "win_pct": 0.571,
           "points_for": 1412.44,
           "points_against": 1288.68,
           "final_rank": 8
@@ -3173,6 +3219,7 @@
           "wins": 8,
           "losses": 6,
           "ties": 0,
+          "win_pct": 0.571,
           "points_for": 1325.72,
           "points_against": 1237.18,
           "final_rank": 1
@@ -3183,6 +3230,7 @@
           "wins": 9,
           "losses": 5,
           "ties": 0,
+          "win_pct": 0.643,
           "points_for": 1617.82,
           "points_against": 1467.94,
           "final_rank": 2
@@ -3219,6 +3267,7 @@
           "wins": 5,
           "losses": 9,
           "ties": 0,
+          "win_pct": 0.357,
           "points_for": 1379.96,
           "points_against": 1419.36,
           "final_rank": 10
@@ -3229,6 +3278,7 @@
           "wins": 3,
           "losses": 11,
           "ties": 0,
+          "win_pct": 0.214,
           "points_for": 1322.32,
           "points_against": 1550.48,
           "final_rank": 10
@@ -3239,6 +3289,7 @@
           "wins": 10,
           "losses": 4,
           "ties": 0,
+          "win_pct": 0.714,
           "points_for": 1454.26,
           "points_against": 1414.38,
           "final_rank": 2
@@ -3249,6 +3300,7 @@
           "wins": 8,
           "losses": 6,
           "ties": 0,
+          "win_pct": 0.571,
           "points_for": 1579.58,
           "points_against": 1457.52,
           "final_rank": 5
@@ -3259,6 +3311,7 @@
           "wins": 10,
           "losses": 4,
           "ties": 0,
+          "win_pct": 0.714,
           "points_for": 1471.66,
           "points_against": 1197.9,
           "final_rank": 2
@@ -3269,6 +3322,7 @@
           "wins": 1,
           "losses": 13,
           "ties": 0,
+          "win_pct": 0.071,
           "points_for": 1129.22,
           "points_against": 1426.98,
           "final_rank": 10
@@ -3279,6 +3333,7 @@
           "wins": 9,
           "losses": 5,
           "ties": 0,
+          "win_pct": 0.643,
           "points_for": 1453.08,
           "points_against": 1246.78,
           "final_rank": 4
@@ -3315,6 +3370,7 @@
           "wins": 5,
           "losses": 9,
           "ties": 0,
+          "win_pct": 0.357,
           "points_for": 1412.7,
           "points_against": 1529.58,
           "final_rank": 8
@@ -3325,6 +3381,7 @@
           "wins": 3,
           "losses": 11,
           "ties": 0,
+          "win_pct": 0.214,
           "points_for": 1277.2,
           "points_against": 1501.6,
           "final_rank": 12
@@ -3335,6 +3392,7 @@
           "wins": 9,
           "losses": 5,
           "ties": 0,
+          "win_pct": 0.643,
           "points_for": 1597.24,
           "points_against": 1429.9,
           "final_rank": 3
@@ -3345,6 +3403,7 @@
           "wins": 6,
           "losses": 8,
           "ties": 0,
+          "win_pct": 0.429,
           "points_for": 1394.34,
           "points_against": 1363.52,
           "final_rank": 7
@@ -3355,6 +3414,7 @@
           "wins": 11,
           "losses": 3,
           "ties": 0,
+          "win_pct": 0.786,
           "points_for": 1352.58,
           "points_against": 1180.58,
           "final_rank": 1
@@ -3365,6 +3425,7 @@
           "wins": 6,
           "losses": 8,
           "ties": 0,
+          "win_pct": 0.429,
           "points_for": 1297.48,
           "points_against": 1370.88,
           "final_rank": 5
@@ -3375,6 +3436,7 @@
           "wins": 3,
           "losses": 11,
           "ties": 0,
+          "win_pct": 0.214,
           "points_for": 1242.66,
           "points_against": 1575.88,
           "final_rank": 5
@@ -3411,6 +3473,7 @@
           "wins": 10,
           "losses": 4,
           "ties": 0,
+          "win_pct": 0.714,
           "points_for": 1459.38,
           "points_against": 1344.08,
           "final_rank": 3
@@ -3421,6 +3484,7 @@
           "wins": 3,
           "losses": 11,
           "ties": 0,
+          "win_pct": 0.214,
           "points_for": 1234.92,
           "points_against": 1380.64,
           "final_rank": 9
@@ -3431,6 +3495,7 @@
           "wins": 6,
           "losses": 8,
           "ties": 0,
+          "win_pct": 0.429,
           "points_for": 1385.84,
           "points_against": 1455.7,
           "final_rank": 4
@@ -3441,6 +3506,7 @@
           "wins": 6,
           "losses": 8,
           "ties": 0,
+          "win_pct": 0.429,
           "points_for": 1357.86,
           "points_against": 1397.68,
           "final_rank": 11
@@ -3451,6 +3517,7 @@
           "wins": 4,
           "losses": 10,
           "ties": 0,
+          "win_pct": 0.286,
           "points_for": 1200.02,
           "points_against": 1363.66,
           "final_rank": 11
@@ -3461,6 +3528,7 @@
           "wins": 9,
           "losses": 5,
           "ties": 0,
+          "win_pct": 0.643,
           "points_for": 1506.18,
           "points_against": 1333.5,
           "final_rank": 3
@@ -3471,6 +3539,7 @@
           "wins": 3,
           "losses": 11,
           "ties": 0,
+          "win_pct": 0.214,
           "points_for": 1108.0,
           "points_against": 1515.3,
           "final_rank": 9
@@ -3505,6 +3574,7 @@
           "wins": 6,
           "losses": 8,
           "ties": 0,
+          "win_pct": 0.429,
           "points_for": 1425.18,
           "points_against": 1525.88,
           "final_rank": 9
@@ -3515,6 +3585,7 @@
           "wins": 10,
           "losses": 4,
           "ties": 0,
+          "win_pct": 0.714,
           "points_for": 1426.14,
           "points_against": 1272.34,
           "final_rank": 4
@@ -3525,6 +3596,7 @@
           "wins": 8,
           "losses": 6,
           "ties": 0,
+          "win_pct": 0.571,
           "points_for": 1563.12,
           "points_against": 1367.54,
           "final_rank": 5
@@ -3535,6 +3607,7 @@
           "wins": 6,
           "losses": 8,
           "ties": 0,
+          "win_pct": 0.429,
           "points_for": 1342.3,
           "points_against": 1405.4,
           "final_rank": 9
@@ -3545,6 +3618,7 @@
           "wins": 7,
           "losses": 7,
           "ties": 0,
+          "win_pct": 0.5,
           "points_for": 1164.7,
           "points_against": 1175.7,
           "final_rank": 9
@@ -3579,6 +3653,7 @@
           "wins": 2,
           "losses": 12,
           "ties": 0,
+          "win_pct": 0.143,
           "points_for": 1143.4,
           "points_against": 1523.0,
           "final_rank": 12
@@ -3589,6 +3664,7 @@
           "wins": 4,
           "losses": 10,
           "ties": 0,
+          "win_pct": 0.286,
           "points_for": 1132.1,
           "points_against": 1283.16,
           "final_rank": 12
@@ -3599,6 +3675,7 @@
           "wins": 6,
           "losses": 8,
           "ties": 0,
+          "win_pct": 0.429,
           "points_for": 1210.1,
           "points_against": 1353.76,
           "final_rank": 6
@@ -3609,6 +3686,7 @@
           "wins": 7,
           "losses": 7,
           "ties": 0,
+          "win_pct": 0.5,
           "points_for": 1427.46,
           "points_against": 1426.9,
           "final_rank": 6
@@ -3619,6 +3697,7 @@
           "wins": 7,
           "losses": 7,
           "ties": 0,
+          "win_pct": 0.5,
           "points_for": 1371.12,
           "points_against": 1437.34,
           "final_rank": 8
@@ -3651,6 +3730,7 @@
           "wins": 7,
           "losses": 7,
           "ties": 0,
+          "win_pct": 0.5,
           "points_for": 1340.34,
           "points_against": 1422.9,
           "final_rank": 7
@@ -3661,6 +3741,7 @@
           "wins": 8,
           "losses": 6,
           "ties": 0,
+          "win_pct": 0.571,
           "points_for": 1448.18,
           "points_against": 1345.28,
           "final_rank": 8
@@ -3671,6 +3752,7 @@
           "wins": 6,
           "losses": 8,
           "ties": 0,
+          "win_pct": 0.429,
           "points_for": 1199.42,
           "points_against": 1384.52,
           "final_rank": 7
@@ -3702,6 +3784,7 @@
           "wins": 10,
           "losses": 4,
           "ties": 0,
+          "win_pct": 0.714,
           "points_for": 1454.78,
           "points_against": 1269.46,
           "final_rank": 5
@@ -3712,6 +3795,7 @@
           "wins": 10,
           "losses": 4,
           "ties": 0,
+          "win_pct": 0.714,
           "points_for": 1599.54,
           "points_against": 1432.0,
           "final_rank": 6
@@ -3744,6 +3828,7 @@
           "wins": 3,
           "losses": 11,
           "ties": 0,
+          "win_pct": 0.214,
           "points_for": 1224.2,
           "points_against": 1427.0,
           "final_rank": 12
@@ -3754,6 +3839,7 @@
           "wins": 6,
           "losses": 8,
           "ties": 0,
+          "win_pct": 0.429,
           "points_for": 1426.16,
           "points_against": 1366.06,
           "final_rank": 10
@@ -3764,6 +3850,7 @@
           "wins": 3,
           "losses": 11,
           "ties": 0,
+          "win_pct": 0.214,
           "points_for": 1086.88,
           "points_against": 1518.88,
           "final_rank": 7
@@ -3794,6 +3881,7 @@
           "wins": 6,
           "losses": 8,
           "ties": 0,
+          "win_pct": 0.429,
           "points_for": 1168.8,
           "points_against": 1236.02,
           "final_rank": 7
@@ -3875,6 +3963,165 @@
   },
   "managers": [
     {
+      "id": "mgr_06",
+      "claimed": true,
+      "display_name": "Paco Contreras",
+      "_internal_note": "Stlan \u2014 no SWID on file at all, linked purely by team name being identical every year since 2018.",
+      "swid": null,
+      "initials": "PC",
+      "bio": "PLACEHOLDER \u2014 The most consistent name in league history: same team name every single year since day one, and the 2020/2024/2025 champion.",
+      "inside_joke": "PLACEHOLDER \u2014 Nobody has ever seen them lose in December.",
+      "team_aliases": [
+        {
+          "year": 2018,
+          "team_name": "Stlan"
+        },
+        {
+          "year": 2019,
+          "team_name": "Stlan"
+        },
+        {
+          "year": 2020,
+          "team_name": "Stlan"
+        },
+        {
+          "year": 2021,
+          "team_name": "Stlan"
+        },
+        {
+          "year": 2022,
+          "team_name": "Stlan"
+        },
+        {
+          "year": 2023,
+          "team_name": "Stlan"
+        },
+        {
+          "year": 2024,
+          "team_name": "Stlan"
+        },
+        {
+          "year": 2025,
+          "team_name": "Stlan"
+        }
+      ],
+      "stats": {
+        "key": "mgr_06",
+        "display_name": "Paco Contreras",
+        "unlinked": false,
+        "seasons_played": 8,
+        "championships": 3,
+        "runner_ups": 0,
+        "wall_of_shame": 1,
+        "wins": 64,
+        "losses": 48,
+        "ties": 0,
+        "points_for": 11298.36,
+        "points_against": 10692.56,
+        "years": [
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ],
+        "by_year": [
+          {
+            "year": 2025,
+            "team_name": "Stlan",
+            "wins": 8,
+            "losses": 6,
+            "ties": 0,
+            "win_pct": 0.571,
+            "points_for": 1542.22,
+            "points_against": 1397.02,
+            "final_rank": 1
+          },
+          {
+            "year": 2024,
+            "team_name": "Stlan",
+            "wins": 10,
+            "losses": 4,
+            "ties": 0,
+            "win_pct": 0.714,
+            "points_for": 1601.88,
+            "points_against": 1449.34,
+            "final_rank": 1
+          },
+          {
+            "year": 2023,
+            "team_name": "Stlan",
+            "wins": 6,
+            "losses": 8,
+            "ties": 0,
+            "win_pct": 0.429,
+            "points_for": 1385.18,
+            "points_against": 1423.18,
+            "final_rank": 10
+          },
+          {
+            "year": 2022,
+            "team_name": "Stlan",
+            "wins": 9,
+            "losses": 5,
+            "ties": 0,
+            "win_pct": 0.643,
+            "points_for": 1396.5,
+            "points_against": 1315.3,
+            "final_rank": 3
+          },
+          {
+            "year": 2021,
+            "team_name": "Stlan",
+            "wins": 11,
+            "losses": 3,
+            "ties": 0,
+            "win_pct": 0.786,
+            "points_for": 1391.66,
+            "points_against": 1130.18,
+            "final_rank": 4
+          },
+          {
+            "year": 2020,
+            "team_name": "Stlan",
+            "wins": 9,
+            "losses": 5,
+            "ties": 0,
+            "win_pct": 0.643,
+            "points_for": 1320.08,
+            "points_against": 1316.76,
+            "final_rank": 1
+          },
+          {
+            "year": 2019,
+            "team_name": "Stlan",
+            "wins": 1,
+            "losses": 13,
+            "ties": 0,
+            "win_pct": 0.071,
+            "points_for": 997.18,
+            "points_against": 1365.44,
+            "final_rank": 10
+          },
+          {
+            "year": 2018,
+            "team_name": "Stlan",
+            "wins": 10,
+            "losses": 4,
+            "ties": 0,
+            "win_pct": 0.714,
+            "points_for": 1663.66,
+            "points_against": 1295.34,
+            "final_rank": 3
+          }
+        ],
+        "win_pct": 0.571
+      }
+    },
+    {
       "id": "mgr_01",
       "claimed": true,
       "display_name": "Jorge Gonzalez",
@@ -3946,6 +4193,7 @@
             "wins": 5,
             "losses": 9,
             "ties": 0,
+            "win_pct": 0.357,
             "points_for": 1324.18,
             "points_against": 1437.96,
             "final_rank": 11
@@ -3956,6 +4204,7 @@
             "wins": 10,
             "losses": 4,
             "ties": 0,
+            "win_pct": 0.714,
             "points_for": 1462.04,
             "points_against": 1370.0,
             "final_rank": 3
@@ -3966,6 +4215,7 @@
             "wins": 6,
             "losses": 8,
             "ties": 0,
+            "win_pct": 0.429,
             "points_for": 1457.24,
             "points_against": 1374.7,
             "final_rank": 8
@@ -3976,6 +4226,7 @@
             "wins": 9,
             "losses": 5,
             "ties": 0,
+            "win_pct": 0.643,
             "points_for": 1558.5,
             "points_against": 1402.82,
             "final_rank": 1
@@ -3986,6 +4237,7 @@
             "wins": 8,
             "losses": 6,
             "ties": 0,
+            "win_pct": 0.571,
             "points_for": 1306.0,
             "points_against": 1175.0,
             "final_rank": 5
@@ -3996,6 +4248,7 @@
             "wins": 7,
             "losses": 7,
             "ties": 0,
+            "win_pct": 0.5,
             "points_for": 1411.84,
             "points_against": 1375.4,
             "final_rank": 7
@@ -4006,6 +4259,7 @@
             "wins": 10,
             "losses": 4,
             "ties": 0,
+            "win_pct": 0.714,
             "points_for": 1552.8,
             "points_against": 1294.48,
             "final_rank": 3
@@ -4016,162 +4270,13 @@
             "wins": 8,
             "losses": 6,
             "ties": 0,
+            "win_pct": 0.571,
             "points_for": 1589.96,
             "points_against": 1603.06,
             "final_rank": 1
           }
         ],
         "win_pct": 0.562
-      }
-    },
-    {
-      "id": "mgr_02",
-      "claimed": true,
-      "display_name": "Rodri Gonzalez",
-      "swid": "{65D3C2B4-A05E-4708-96A4-0027CF30EEB2}",
-      "initials": "RG",
-      "bio": "PLACEHOLDER \u2014 Rebrands the roster almost every year but somehow the vibes stay the same.",
-      "inside_joke": "PLACEHOLDER \u2014 Ask them about 2021.",
-      "team_aliases": [
-        {
-          "year": 2018,
-          "team_name": "Tampiyork"
-        },
-        {
-          "year": 2019,
-          "team_name": "Ponchos"
-        },
-        {
-          "year": 2020,
-          "team_name": "Ponchos"
-        },
-        {
-          "year": 2021,
-          "team_name": "Ponchos"
-        },
-        {
-          "year": 2022,
-          "team_name": "Mad Andrews"
-        },
-        {
-          "year": 2023,
-          "team_name": "Flaccos"
-        },
-        {
-          "year": 2024,
-          "team_name": "Ponchos"
-        },
-        {
-          "year": 2025,
-          "team_name": "Ponchos"
-        }
-      ],
-      "stats": {
-        "key": "mgr_02",
-        "display_name": "Rodri Gonzalez",
-        "unlinked": false,
-        "seasons_played": 8,
-        "championships": 1,
-        "runner_ups": 1,
-        "wall_of_shame": 1,
-        "wins": 52,
-        "losses": 60,
-        "ties": 0,
-        "points_for": 10784.6,
-        "points_against": 11049.68,
-        "years": [
-          2018,
-          2019,
-          2020,
-          2021,
-          2022,
-          2023,
-          2024,
-          2025
-        ],
-        "by_year": [
-          {
-            "year": 2025,
-            "team_name": "Ponchos",
-            "wins": 3,
-            "losses": 11,
-            "ties": 0,
-            "points_for": 1088.82,
-            "points_against": 1337.52,
-            "final_rank": 12
-          },
-          {
-            "year": 2024,
-            "team_name": "Ponchos",
-            "wins": 7,
-            "losses": 7,
-            "ties": 0,
-            "points_for": 1545.08,
-            "points_against": 1516.58,
-            "final_rank": 7
-          },
-          {
-            "year": 2023,
-            "team_name": "Flaccos",
-            "wins": 5,
-            "losses": 9,
-            "ties": 0,
-            "points_for": 1276.52,
-            "points_against": 1383.62,
-            "final_rank": 9
-          },
-          {
-            "year": 2022,
-            "team_name": "Mad Andrews",
-            "wins": 9,
-            "losses": 5,
-            "ties": 0,
-            "points_for": 1334.86,
-            "points_against": 1468.34,
-            "final_rank": 6
-          },
-          {
-            "year": 2021,
-            "team_name": "Ponchos",
-            "wins": 3,
-            "losses": 11,
-            "ties": 0,
-            "points_for": 1183.34,
-            "points_against": 1349.82,
-            "final_rank": 8
-          },
-          {
-            "year": 2020,
-            "team_name": "Ponchos",
-            "wins": 8,
-            "losses": 6,
-            "ties": 0,
-            "points_for": 1412.44,
-            "points_against": 1288.68,
-            "final_rank": 8
-          },
-          {
-            "year": 2019,
-            "team_name": "Ponchos",
-            "wins": 8,
-            "losses": 6,
-            "ties": 0,
-            "points_for": 1325.72,
-            "points_against": 1237.18,
-            "final_rank": 1
-          },
-          {
-            "year": 2018,
-            "team_name": "Tampiyork",
-            "wins": 9,
-            "losses": 5,
-            "ties": 0,
-            "points_for": 1617.82,
-            "points_against": 1467.94,
-            "final_rank": 2
-          }
-        ],
-        "win_pct": 0.464
       }
     },
     {
@@ -4246,6 +4351,7 @@
             "wins": 7,
             "losses": 7,
             "ties": 0,
+            "win_pct": 0.5,
             "points_for": 1452.8,
             "points_against": 1467.7,
             "final_rank": 2
@@ -4256,6 +4362,7 @@
             "wins": 8,
             "losses": 6,
             "ties": 0,
+            "win_pct": 0.571,
             "points_for": 1446.82,
             "points_against": 1459.04,
             "final_rank": 5
@@ -4266,6 +4373,7 @@
             "wins": 10,
             "losses": 4,
             "ties": 0,
+            "win_pct": 0.714,
             "points_for": 1569.52,
             "points_against": 1430.8,
             "final_rank": 1
@@ -4276,6 +4384,7 @@
             "wins": 9,
             "losses": 5,
             "ties": 0,
+            "win_pct": 0.643,
             "points_for": 1431.42,
             "points_against": 1344.2,
             "final_rank": 4
@@ -4286,6 +4395,7 @@
             "wins": 9,
             "losses": 5,
             "ties": 0,
+            "win_pct": 0.643,
             "points_for": 1317.54,
             "points_against": 1212.88,
             "final_rank": 6
@@ -4296,6 +4406,7 @@
             "wins": 9,
             "losses": 5,
             "ties": 0,
+            "win_pct": 0.643,
             "points_for": 1354.96,
             "points_against": 1203.98,
             "final_rank": 2
@@ -4306,6 +4417,7 @@
             "wins": 10,
             "losses": 4,
             "ties": 0,
+            "win_pct": 0.714,
             "points_for": 1465.56,
             "points_against": 1339.9,
             "final_rank": 2
@@ -4316,12 +4428,314 @@
             "wins": 11,
             "losses": 3,
             "ties": 0,
+            "win_pct": 0.786,
             "points_for": 1638.28,
             "points_against": 1417.72,
             "final_rank": 4
           }
         ],
         "win_pct": 0.652
+      }
+    },
+    {
+      "id": "mgr_02",
+      "claimed": true,
+      "display_name": "Rodri Gonzalez",
+      "swid": "{65D3C2B4-A05E-4708-96A4-0027CF30EEB2}",
+      "initials": "RG",
+      "bio": "PLACEHOLDER \u2014 Rebrands the roster almost every year but somehow the vibes stay the same.",
+      "inside_joke": "PLACEHOLDER \u2014 Ask them about 2021.",
+      "team_aliases": [
+        {
+          "year": 2018,
+          "team_name": "Tampiyork"
+        },
+        {
+          "year": 2019,
+          "team_name": "Ponchos"
+        },
+        {
+          "year": 2020,
+          "team_name": "Ponchos"
+        },
+        {
+          "year": 2021,
+          "team_name": "Ponchos"
+        },
+        {
+          "year": 2022,
+          "team_name": "Mad Andrews"
+        },
+        {
+          "year": 2023,
+          "team_name": "Flaccos"
+        },
+        {
+          "year": 2024,
+          "team_name": "Ponchos"
+        },
+        {
+          "year": 2025,
+          "team_name": "Ponchos"
+        }
+      ],
+      "stats": {
+        "key": "mgr_02",
+        "display_name": "Rodri Gonzalez",
+        "unlinked": false,
+        "seasons_played": 8,
+        "championships": 1,
+        "runner_ups": 1,
+        "wall_of_shame": 1,
+        "wins": 52,
+        "losses": 60,
+        "ties": 0,
+        "points_for": 10784.6,
+        "points_against": 11049.68,
+        "years": [
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ],
+        "by_year": [
+          {
+            "year": 2025,
+            "team_name": "Ponchos",
+            "wins": 3,
+            "losses": 11,
+            "ties": 0,
+            "win_pct": 0.214,
+            "points_for": 1088.82,
+            "points_against": 1337.52,
+            "final_rank": 12
+          },
+          {
+            "year": 2024,
+            "team_name": "Ponchos",
+            "wins": 7,
+            "losses": 7,
+            "ties": 0,
+            "win_pct": 0.5,
+            "points_for": 1545.08,
+            "points_against": 1516.58,
+            "final_rank": 7
+          },
+          {
+            "year": 2023,
+            "team_name": "Flaccos",
+            "wins": 5,
+            "losses": 9,
+            "ties": 0,
+            "win_pct": 0.357,
+            "points_for": 1276.52,
+            "points_against": 1383.62,
+            "final_rank": 9
+          },
+          {
+            "year": 2022,
+            "team_name": "Mad Andrews",
+            "wins": 9,
+            "losses": 5,
+            "ties": 0,
+            "win_pct": 0.643,
+            "points_for": 1334.86,
+            "points_against": 1468.34,
+            "final_rank": 6
+          },
+          {
+            "year": 2021,
+            "team_name": "Ponchos",
+            "wins": 3,
+            "losses": 11,
+            "ties": 0,
+            "win_pct": 0.214,
+            "points_for": 1183.34,
+            "points_against": 1349.82,
+            "final_rank": 8
+          },
+          {
+            "year": 2020,
+            "team_name": "Ponchos",
+            "wins": 8,
+            "losses": 6,
+            "ties": 0,
+            "win_pct": 0.571,
+            "points_for": 1412.44,
+            "points_against": 1288.68,
+            "final_rank": 8
+          },
+          {
+            "year": 2019,
+            "team_name": "Ponchos",
+            "wins": 8,
+            "losses": 6,
+            "ties": 0,
+            "win_pct": 0.571,
+            "points_for": 1325.72,
+            "points_against": 1237.18,
+            "final_rank": 1
+          },
+          {
+            "year": 2018,
+            "team_name": "Tampiyork",
+            "wins": 9,
+            "losses": 5,
+            "ties": 0,
+            "win_pct": 0.643,
+            "points_for": 1617.82,
+            "points_against": 1467.94,
+            "final_rank": 2
+          }
+        ],
+        "win_pct": 0.464
+      }
+    },
+    {
+      "id": "mgr_09",
+      "claimed": true,
+      "display_name": "Julian Alvarez",
+      "_internal_note": "Founding 2018 member (team_id=8, 'Gallos Blancos') \u2014 active in the WhatsApp chat from day one, then quit right before the 2019 draft ('Yo les fallo esta season :/' then left the group), rejoined Aug 2020 on a fresh slot (team_id=3, 'BlackPantha' onward). No SWID ever recorded in any year. Full name in group chat: Julian Alvarez Del Castillo.",
+      "swid": null,
+      "initials": "JAC",
+      "bio": "PLACEHOLDER",
+      "inside_joke": "PLACEHOLDER",
+      "team_aliases": [
+        {
+          "year": 2018,
+          "team_name": "Gallos Blancos"
+        },
+        {
+          "year": 2020,
+          "team_name": "BlackPantha"
+        },
+        {
+          "year": 2021,
+          "team_name": "ATLETI SAN PANCHO"
+        },
+        {
+          "year": 2022,
+          "team_name": "ATLETI SAN PANCHO"
+        },
+        {
+          "year": 2023,
+          "team_name": "Atleti San Pancho"
+        },
+        {
+          "year": 2024,
+          "team_name": "ATLETI SAN PANCHO"
+        },
+        {
+          "year": 2025,
+          "team_name": "ATLETI SAN PANCHO"
+        }
+      ],
+      "stats": {
+        "key": "mgr_09",
+        "display_name": "Julian Alvarez",
+        "unlinked": false,
+        "seasons_played": 7,
+        "championships": 1,
+        "runner_ups": 0,
+        "wall_of_shame": 1,
+        "wins": 43,
+        "losses": 55,
+        "ties": 0,
+        "points_for": 9574.2,
+        "points_against": 9951.94,
+        "years": [
+          2018,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ],
+        "by_year": [
+          {
+            "year": 2025,
+            "team_name": "ATLETI SAN PANCHO",
+            "wins": 5,
+            "losses": 9,
+            "ties": 0,
+            "win_pct": 0.357,
+            "points_for": 1412.7,
+            "points_against": 1529.58,
+            "final_rank": 8
+          },
+          {
+            "year": 2024,
+            "team_name": "ATLETI SAN PANCHO",
+            "wins": 3,
+            "losses": 11,
+            "ties": 0,
+            "win_pct": 0.214,
+            "points_for": 1277.2,
+            "points_against": 1501.6,
+            "final_rank": 12
+          },
+          {
+            "year": 2023,
+            "team_name": "Atleti San Pancho",
+            "wins": 9,
+            "losses": 5,
+            "ties": 0,
+            "win_pct": 0.643,
+            "points_for": 1597.24,
+            "points_against": 1429.9,
+            "final_rank": 3
+          },
+          {
+            "year": 2022,
+            "team_name": "ATLETI SAN PANCHO",
+            "wins": 6,
+            "losses": 8,
+            "ties": 0,
+            "win_pct": 0.429,
+            "points_for": 1394.34,
+            "points_against": 1363.52,
+            "final_rank": 7
+          },
+          {
+            "year": 2021,
+            "team_name": "ATLETI SAN PANCHO",
+            "wins": 11,
+            "losses": 3,
+            "ties": 0,
+            "win_pct": 0.786,
+            "points_for": 1352.58,
+            "points_against": 1180.58,
+            "final_rank": 1
+          },
+          {
+            "year": 2020,
+            "team_name": "BlackPantha",
+            "wins": 6,
+            "losses": 8,
+            "ties": 0,
+            "win_pct": 0.429,
+            "points_for": 1297.48,
+            "points_against": 1370.88,
+            "final_rank": 5
+          },
+          {
+            "year": 2018,
+            "team_name": "Gallos Blancos",
+            "wins": 3,
+            "losses": 11,
+            "ties": 0,
+            "win_pct": 0.214,
+            "points_for": 1242.66,
+            "points_against": 1575.88,
+            "final_rank": 5
+          }
+        ],
+        "win_pct": 0.439
       }
     },
     {
@@ -4391,6 +4805,7 @@
             "wins": 5,
             "losses": 9,
             "ties": 0,
+            "win_pct": 0.357,
             "points_for": 1379.96,
             "points_against": 1419.36,
             "final_rank": 10
@@ -4401,6 +4816,7 @@
             "wins": 3,
             "losses": 11,
             "ties": 0,
+            "win_pct": 0.214,
             "points_for": 1322.32,
             "points_against": 1550.48,
             "final_rank": 10
@@ -4411,6 +4827,7 @@
             "wins": 10,
             "losses": 4,
             "ties": 0,
+            "win_pct": 0.714,
             "points_for": 1454.26,
             "points_against": 1414.38,
             "final_rank": 2
@@ -4421,6 +4838,7 @@
             "wins": 8,
             "losses": 6,
             "ties": 0,
+            "win_pct": 0.571,
             "points_for": 1579.58,
             "points_against": 1457.52,
             "final_rank": 5
@@ -4431,6 +4849,7 @@
             "wins": 10,
             "losses": 4,
             "ties": 0,
+            "win_pct": 0.714,
             "points_for": 1471.66,
             "points_against": 1197.9,
             "final_rank": 2
@@ -4441,6 +4860,7 @@
             "wins": 1,
             "losses": 13,
             "ties": 0,
+            "win_pct": 0.071,
             "points_for": 1129.22,
             "points_against": 1426.98,
             "final_rank": 10
@@ -4451,374 +4871,13 @@
             "wins": 9,
             "losses": 5,
             "ties": 0,
+            "win_pct": 0.643,
             "points_for": 1453.08,
             "points_against": 1246.78,
             "final_rank": 4
           }
         ],
         "win_pct": 0.469
-      }
-    },
-    {
-      "id": "mgr_05",
-      "claimed": true,
-      "display_name": "Gerardo Franco",
-      "_internal_note": "Confirmed for Los Frailes ('24) / Tua girls one Kupp ('25) only \u2014 took over team_id=11 fresh in 2024. The prior occupant of that slot (Atletico del Charro, 2021-2023) is a different person, Andres Astaburuaga \u2014 see mgr_13.",
-      "swid": "{AEF7B003-AF65-4453-A205-6EA2DE8BD8BE}",
-      "initials": "GF",
-      "bio": "PLACEHOLDER \u2014 Newer to the league, already has a top-5 finish.",
-      "inside_joke": "PLACEHOLDER \u2014 Best team name in the league, fight us.",
-      "team_aliases": [
-        {
-          "year": 2024,
-          "team_name": "Los Frailes"
-        },
-        {
-          "year": 2025,
-          "team_name": "Tua girls one Kupp"
-        }
-      ],
-      "stats": {
-        "key": "mgr_05",
-        "display_name": "Gerardo Franco",
-        "unlinked": false,
-        "seasons_played": 2,
-        "championships": 0,
-        "runner_ups": 0,
-        "wall_of_shame": 0,
-        "wins": 20,
-        "losses": 8,
-        "ties": 0,
-        "points_for": 3054.32,
-        "points_against": 2701.46,
-        "years": [
-          2024,
-          2025
-        ],
-        "by_year": [
-          {
-            "year": 2025,
-            "team_name": "Tua girls one Kupp",
-            "wins": 10,
-            "losses": 4,
-            "ties": 0,
-            "points_for": 1454.78,
-            "points_against": 1269.46,
-            "final_rank": 5
-          },
-          {
-            "year": 2024,
-            "team_name": "Los Frailes",
-            "wins": 10,
-            "losses": 4,
-            "ties": 0,
-            "points_for": 1599.54,
-            "points_against": 1432.0,
-            "final_rank": 6
-          }
-        ],
-        "win_pct": 0.714
-      }
-    },
-    {
-      "id": "mgr_06",
-      "claimed": true,
-      "display_name": "Paco Contreras",
-      "_internal_note": "Stlan \u2014 no SWID on file at all, linked purely by team name being identical every year since 2018.",
-      "swid": null,
-      "initials": "PC",
-      "bio": "PLACEHOLDER \u2014 The most consistent name in league history: same team name every single year since day one, and the 2020/2024/2025 champion.",
-      "inside_joke": "PLACEHOLDER \u2014 Nobody has ever seen them lose in December.",
-      "team_aliases": [
-        {
-          "year": 2018,
-          "team_name": "Stlan"
-        },
-        {
-          "year": 2019,
-          "team_name": "Stlan"
-        },
-        {
-          "year": 2020,
-          "team_name": "Stlan"
-        },
-        {
-          "year": 2021,
-          "team_name": "Stlan"
-        },
-        {
-          "year": 2022,
-          "team_name": "Stlan"
-        },
-        {
-          "year": 2023,
-          "team_name": "Stlan"
-        },
-        {
-          "year": 2024,
-          "team_name": "Stlan"
-        },
-        {
-          "year": 2025,
-          "team_name": "Stlan"
-        }
-      ],
-      "stats": {
-        "key": "mgr_06",
-        "display_name": "Paco Contreras",
-        "unlinked": false,
-        "seasons_played": 8,
-        "championships": 3,
-        "runner_ups": 0,
-        "wall_of_shame": 1,
-        "wins": 64,
-        "losses": 48,
-        "ties": 0,
-        "points_for": 11298.36,
-        "points_against": 10692.56,
-        "years": [
-          2018,
-          2019,
-          2020,
-          2021,
-          2022,
-          2023,
-          2024,
-          2025
-        ],
-        "by_year": [
-          {
-            "year": 2025,
-            "team_name": "Stlan",
-            "wins": 8,
-            "losses": 6,
-            "ties": 0,
-            "points_for": 1542.22,
-            "points_against": 1397.02,
-            "final_rank": 1
-          },
-          {
-            "year": 2024,
-            "team_name": "Stlan",
-            "wins": 10,
-            "losses": 4,
-            "ties": 0,
-            "points_for": 1601.88,
-            "points_against": 1449.34,
-            "final_rank": 1
-          },
-          {
-            "year": 2023,
-            "team_name": "Stlan",
-            "wins": 6,
-            "losses": 8,
-            "ties": 0,
-            "points_for": 1385.18,
-            "points_against": 1423.18,
-            "final_rank": 10
-          },
-          {
-            "year": 2022,
-            "team_name": "Stlan",
-            "wins": 9,
-            "losses": 5,
-            "ties": 0,
-            "points_for": 1396.5,
-            "points_against": 1315.3,
-            "final_rank": 3
-          },
-          {
-            "year": 2021,
-            "team_name": "Stlan",
-            "wins": 11,
-            "losses": 3,
-            "ties": 0,
-            "points_for": 1391.66,
-            "points_against": 1130.18,
-            "final_rank": 4
-          },
-          {
-            "year": 2020,
-            "team_name": "Stlan",
-            "wins": 9,
-            "losses": 5,
-            "ties": 0,
-            "points_for": 1320.08,
-            "points_against": 1316.76,
-            "final_rank": 1
-          },
-          {
-            "year": 2019,
-            "team_name": "Stlan",
-            "wins": 1,
-            "losses": 13,
-            "ties": 0,
-            "points_for": 997.18,
-            "points_against": 1365.44,
-            "final_rank": 10
-          },
-          {
-            "year": 2018,
-            "team_name": "Stlan",
-            "wins": 10,
-            "losses": 4,
-            "ties": 0,
-            "points_for": 1663.66,
-            "points_against": 1295.34,
-            "final_rank": 3
-          }
-        ],
-        "win_pct": 0.571
-      }
-    },
-    {
-      "id": "mgr_07",
-      "claimed": true,
-      "display_name": "Jaime Zorrilla",
-      "swid": null,
-      "initials": "JZ",
-      "bio": "PLACEHOLDER \u2014 Recovered from ESPN's league members page (no SWID on file, but team_id 2 has been his roster slot every year since 2018 \u2014 Jimmy Brown through 2019, Jaiminkah from 2020 on).",
-      "inside_joke": "PLACEHOLDER",
-      "team_aliases": [
-        {
-          "year": 2018,
-          "team_name": "Jimmy Brown"
-        },
-        {
-          "year": 2019,
-          "team_name": "Jimmy Brown"
-        },
-        {
-          "year": 2020,
-          "team_name": "Jaiminkah"
-        },
-        {
-          "year": 2021,
-          "team_name": "Jaiminkah"
-        },
-        {
-          "year": 2022,
-          "team_name": "Jaiminkah"
-        },
-        {
-          "year": 2023,
-          "team_name": "Jaiminkah"
-        },
-        {
-          "year": 2024,
-          "team_name": "Jaiminkah"
-        },
-        {
-          "year": 2025,
-          "team_name": "Jaiminkah"
-        }
-      ],
-      "stats": {
-        "key": "mgr_07",
-        "display_name": "Jaime Zorrilla",
-        "unlinked": false,
-        "seasons_played": 8,
-        "championships": 0,
-        "runner_ups": 1,
-        "wall_of_shame": 0,
-        "wins": 54,
-        "losses": 58,
-        "ties": 0,
-        "points_for": 10888.5,
-        "points_against": 10969.42,
-        "years": [
-          2018,
-          2019,
-          2020,
-          2021,
-          2022,
-          2023,
-          2024,
-          2025
-        ],
-        "by_year": [
-          {
-            "year": 2025,
-            "team_name": "Jaiminkah",
-            "wins": 8,
-            "losses": 6,
-            "ties": 0,
-            "points_for": 1376.26,
-            "points_against": 1391.06,
-            "final_rank": 6
-          },
-          {
-            "year": 2024,
-            "team_name": "Jaiminkah",
-            "wins": 9,
-            "losses": 5,
-            "ties": 0,
-            "points_for": 1568.38,
-            "points_against": 1441.38,
-            "final_rank": 2
-          },
-          {
-            "year": 2023,
-            "team_name": "Jaiminkah",
-            "wins": 6,
-            "losses": 8,
-            "ties": 0,
-            "points_for": 1347.32,
-            "points_against": 1451.54,
-            "final_rank": 11
-          },
-          {
-            "year": 2022,
-            "team_name": "Jaiminkah",
-            "wins": 6,
-            "losses": 8,
-            "ties": 0,
-            "points_for": 1394.26,
-            "points_against": 1409.36,
-            "final_rank": 8
-          },
-          {
-            "year": 2021,
-            "team_name": "Jaiminkah",
-            "wins": 9,
-            "losses": 5,
-            "ties": 0,
-            "points_for": 1379.26,
-            "points_against": 1327.54,
-            "final_rank": 3
-          },
-          {
-            "year": 2020,
-            "team_name": "Jaiminkah",
-            "wins": 4,
-            "losses": 10,
-            "ties": 0,
-            "points_for": 1214.2,
-            "points_against": 1365.24,
-            "final_rank": 9
-          },
-          {
-            "year": 2019,
-            "team_name": "Jimmy Brown",
-            "wins": 8,
-            "losses": 6,
-            "ties": 0,
-            "points_for": 1281.6,
-            "points_against": 1177.62,
-            "final_rank": 8
-          },
-          {
-            "year": 2018,
-            "team_name": "Jimmy Brown",
-            "wins": 4,
-            "losses": 10,
-            "ties": 0,
-            "points_for": 1327.22,
-            "points_against": 1405.68,
-            "final_rank": 6
-          }
-        ],
-        "win_pct": 0.482
       }
     },
     {
@@ -4893,6 +4952,7 @@
             "wins": 10,
             "losses": 4,
             "ties": 0,
+            "win_pct": 0.714,
             "points_for": 1632.88,
             "points_against": 1346.98,
             "final_rank": 4
@@ -4903,6 +4963,7 @@
             "wins": 3,
             "losses": 11,
             "ties": 0,
+            "win_pct": 0.214,
             "points_for": 1244.96,
             "points_against": 1458.78,
             "final_rank": 11
@@ -4913,6 +4974,7 @@
             "wins": 9,
             "losses": 5,
             "ties": 0,
+            "win_pct": 0.643,
             "points_for": 1502.64,
             "points_against": 1419.62,
             "final_rank": 6
@@ -4923,6 +4985,7 @@
             "wins": 8,
             "losses": 6,
             "ties": 0,
+            "win_pct": 0.571,
             "points_for": 1649.68,
             "points_against": 1555.66,
             "final_rank": 2
@@ -4933,6 +4996,7 @@
             "wins": 5,
             "losses": 9,
             "ties": 0,
+            "win_pct": 0.357,
             "points_for": 1281.78,
             "points_against": 1352.22,
             "final_rank": 10
@@ -4943,6 +5007,7 @@
             "wins": 11,
             "losses": 3,
             "ties": 0,
+            "win_pct": 0.786,
             "points_for": 1526.96,
             "points_against": 1348.28,
             "final_rank": 4
@@ -4953,6 +5018,7 @@
             "wins": 8,
             "losses": 6,
             "ties": 0,
+            "win_pct": 0.571,
             "points_for": 1265.68,
             "points_against": 1206.26,
             "final_rank": 5
@@ -4963,6 +5029,7 @@
             "wins": 4,
             "losses": 10,
             "ties": 0,
+            "win_pct": 0.286,
             "points_for": 1288.1,
             "points_against": 1535.86,
             "final_rank": 7
@@ -4972,59 +5039,63 @@
       }
     },
     {
-      "id": "mgr_09",
+      "id": "mgr_07",
       "claimed": true,
-      "display_name": "Julian Alvarez",
-      "_internal_note": "Founding 2018 member (team_id=8, 'Gallos Blancos') \u2014 active in the WhatsApp chat from day one, then quit right before the 2019 draft ('Yo les fallo esta season :/' then left the group), rejoined Aug 2020 on a fresh slot (team_id=3, 'BlackPantha' onward). No SWID ever recorded in any year. Full name in group chat: Julian Alvarez Del Castillo.",
+      "display_name": "Jaime Zorrilla",
       "swid": null,
-      "initials": "JAC",
-      "bio": "PLACEHOLDER",
+      "initials": "JZ",
+      "bio": "PLACEHOLDER \u2014 Recovered from ESPN's league members page (no SWID on file, but team_id 2 has been his roster slot every year since 2018 \u2014 Jimmy Brown through 2019, Jaiminkah from 2020 on).",
       "inside_joke": "PLACEHOLDER",
       "team_aliases": [
         {
           "year": 2018,
-          "team_name": "Gallos Blancos"
+          "team_name": "Jimmy Brown"
+        },
+        {
+          "year": 2019,
+          "team_name": "Jimmy Brown"
         },
         {
           "year": 2020,
-          "team_name": "BlackPantha"
+          "team_name": "Jaiminkah"
         },
         {
           "year": 2021,
-          "team_name": "ATLETI SAN PANCHO"
+          "team_name": "Jaiminkah"
         },
         {
           "year": 2022,
-          "team_name": "ATLETI SAN PANCHO"
+          "team_name": "Jaiminkah"
         },
         {
           "year": 2023,
-          "team_name": "Atleti San Pancho"
+          "team_name": "Jaiminkah"
         },
         {
           "year": 2024,
-          "team_name": "ATLETI SAN PANCHO"
+          "team_name": "Jaiminkah"
         },
         {
           "year": 2025,
-          "team_name": "ATLETI SAN PANCHO"
+          "team_name": "Jaiminkah"
         }
       ],
       "stats": {
-        "key": "mgr_09",
-        "display_name": "Julian Alvarez",
+        "key": "mgr_07",
+        "display_name": "Jaime Zorrilla",
         "unlinked": false,
-        "seasons_played": 7,
-        "championships": 1,
-        "runner_ups": 0,
-        "wall_of_shame": 1,
-        "wins": 43,
-        "losses": 55,
+        "seasons_played": 8,
+        "championships": 0,
+        "runner_ups": 1,
+        "wall_of_shame": 0,
+        "wins": 54,
+        "losses": 58,
         "ties": 0,
-        "points_for": 9574.2,
-        "points_against": 9951.94,
+        "points_for": 10888.5,
+        "points_against": 10969.42,
         "years": [
           2018,
+          2019,
           2020,
           2021,
           2022,
@@ -5035,182 +5106,94 @@
         "by_year": [
           {
             "year": 2025,
-            "team_name": "ATLETI SAN PANCHO",
-            "wins": 5,
-            "losses": 9,
+            "team_name": "Jaiminkah",
+            "wins": 8,
+            "losses": 6,
             "ties": 0,
-            "points_for": 1412.7,
-            "points_against": 1529.58,
-            "final_rank": 8
+            "win_pct": 0.571,
+            "points_for": 1376.26,
+            "points_against": 1391.06,
+            "final_rank": 6
           },
           {
             "year": 2024,
-            "team_name": "ATLETI SAN PANCHO",
-            "wins": 3,
-            "losses": 11,
-            "ties": 0,
-            "points_for": 1277.2,
-            "points_against": 1501.6,
-            "final_rank": 12
-          },
-          {
-            "year": 2023,
-            "team_name": "Atleti San Pancho",
+            "team_name": "Jaiminkah",
             "wins": 9,
             "losses": 5,
             "ties": 0,
-            "points_for": 1597.24,
-            "points_against": 1429.9,
+            "win_pct": 0.643,
+            "points_for": 1568.38,
+            "points_against": 1441.38,
+            "final_rank": 2
+          },
+          {
+            "year": 2023,
+            "team_name": "Jaiminkah",
+            "wins": 6,
+            "losses": 8,
+            "ties": 0,
+            "win_pct": 0.429,
+            "points_for": 1347.32,
+            "points_against": 1451.54,
+            "final_rank": 11
+          },
+          {
+            "year": 2022,
+            "team_name": "Jaiminkah",
+            "wins": 6,
+            "losses": 8,
+            "ties": 0,
+            "win_pct": 0.429,
+            "points_for": 1394.26,
+            "points_against": 1409.36,
+            "final_rank": 8
+          },
+          {
+            "year": 2021,
+            "team_name": "Jaiminkah",
+            "wins": 9,
+            "losses": 5,
+            "ties": 0,
+            "win_pct": 0.643,
+            "points_for": 1379.26,
+            "points_against": 1327.54,
             "final_rank": 3
           },
           {
-            "year": 2022,
-            "team_name": "ATLETI SAN PANCHO",
-            "wins": 6,
-            "losses": 8,
-            "ties": 0,
-            "points_for": 1394.34,
-            "points_against": 1363.52,
-            "final_rank": 7
-          },
-          {
-            "year": 2021,
-            "team_name": "ATLETI SAN PANCHO",
-            "wins": 11,
-            "losses": 3,
-            "ties": 0,
-            "points_for": 1352.58,
-            "points_against": 1180.58,
-            "final_rank": 1
-          },
-          {
             "year": 2020,
-            "team_name": "BlackPantha",
-            "wins": 6,
-            "losses": 8,
-            "ties": 0,
-            "points_for": 1297.48,
-            "points_against": 1370.88,
-            "final_rank": 5
-          },
-          {
-            "year": 2018,
-            "team_name": "Gallos Blancos",
-            "wins": 3,
-            "losses": 11,
-            "ties": 0,
-            "points_for": 1242.66,
-            "points_against": 1575.88,
-            "final_rank": 5
-          }
-        ],
-        "win_pct": 0.439
-      }
-    },
-    {
-      "id": "mgr_10",
-      "claimed": true,
-      "display_name": "Carlos Altamirano",
-      "_internal_note": "team_id=7, 2018-2022 only \u2014 handed off the slot to Humberto Ruiz (mgr_15) starting 2023. ESPN never recorded a SWID for this slot in any year. Renamed once (C mama i -> Masiosexo).",
-      "swid": null,
-      "initials": "CA",
-      "bio": "PLACEHOLDER",
-      "inside_joke": "PLACEHOLDER",
-      "team_aliases": [
-        {
-          "year": 2018,
-          "team_name": "C mama i"
-        },
-        {
-          "year": 2019,
-          "team_name": "C mama i"
-        },
-        {
-          "year": 2020,
-          "team_name": "C mama i"
-        },
-        {
-          "year": 2021,
-          "team_name": "C mama i"
-        },
-        {
-          "year": 2022,
-          "team_name": "Masiosexo"
-        }
-      ],
-      "stats": {
-        "key": "mgr_10",
-        "display_name": "Carlos Altamirano",
-        "unlinked": false,
-        "seasons_played": 5,
-        "championships": 0,
-        "runner_ups": 0,
-        "wall_of_shame": 3,
-        "wins": 26,
-        "losses": 44,
-        "ties": 0,
-        "points_for": 6284.18,
-        "points_against": 7024.16,
-        "years": [
-          2018,
-          2019,
-          2020,
-          2021,
-          2022
-        ],
-        "by_year": [
-          {
-            "year": 2022,
-            "team_name": "Masiosexo",
-            "wins": 2,
-            "losses": 12,
-            "ties": 0,
-            "points_for": 1143.4,
-            "points_against": 1523.0,
-            "final_rank": 12
-          },
-          {
-            "year": 2021,
-            "team_name": "C mama i",
+            "team_name": "Jaiminkah",
             "wins": 4,
             "losses": 10,
             "ties": 0,
-            "points_for": 1132.1,
-            "points_against": 1283.16,
-            "final_rank": 12
-          },
-          {
-            "year": 2020,
-            "team_name": "C mama i",
-            "wins": 6,
-            "losses": 8,
-            "ties": 0,
-            "points_for": 1210.1,
-            "points_against": 1353.76,
-            "final_rank": 6
+            "win_pct": 0.286,
+            "points_for": 1214.2,
+            "points_against": 1365.24,
+            "final_rank": 9
           },
           {
             "year": 2019,
-            "team_name": "C mama i",
-            "wins": 7,
-            "losses": 7,
+            "team_name": "Jimmy Brown",
+            "wins": 8,
+            "losses": 6,
             "ties": 0,
-            "points_for": 1427.46,
-            "points_against": 1426.9,
-            "final_rank": 6
+            "win_pct": 0.571,
+            "points_for": 1281.6,
+            "points_against": 1177.62,
+            "final_rank": 8
           },
           {
             "year": 2018,
-            "team_name": "C mama i",
-            "wins": 7,
-            "losses": 7,
+            "team_name": "Jimmy Brown",
+            "wins": 4,
+            "losses": 10,
             "ties": 0,
-            "points_for": 1371.12,
-            "points_against": 1437.34,
-            "final_rank": 8
+            "win_pct": 0.286,
+            "points_for": 1327.22,
+            "points_against": 1405.68,
+            "final_rank": 6
           }
         ],
-        "win_pct": 0.371
+        "win_pct": 0.482
       }
     },
     {
@@ -5281,6 +5264,7 @@
             "wins": 10,
             "losses": 4,
             "ties": 0,
+            "win_pct": 0.714,
             "points_for": 1459.38,
             "points_against": 1344.08,
             "final_rank": 3
@@ -5291,6 +5275,7 @@
             "wins": 3,
             "losses": 11,
             "ties": 0,
+            "win_pct": 0.214,
             "points_for": 1234.92,
             "points_against": 1380.64,
             "final_rank": 9
@@ -5301,6 +5286,7 @@
             "wins": 6,
             "losses": 8,
             "ties": 0,
+            "win_pct": 0.429,
             "points_for": 1385.84,
             "points_against": 1455.7,
             "final_rank": 4
@@ -5311,6 +5297,7 @@
             "wins": 6,
             "losses": 8,
             "ties": 0,
+            "win_pct": 0.429,
             "points_for": 1357.86,
             "points_against": 1397.68,
             "final_rank": 11
@@ -5321,6 +5308,7 @@
             "wins": 4,
             "losses": 10,
             "ties": 0,
+            "win_pct": 0.286,
             "points_for": 1200.02,
             "points_against": 1363.66,
             "final_rank": 11
@@ -5331,6 +5319,7 @@
             "wins": 9,
             "losses": 5,
             "ties": 0,
+            "win_pct": 0.643,
             "points_for": 1506.18,
             "points_against": 1333.5,
             "final_rank": 3
@@ -5341,6 +5330,7 @@
             "wins": 3,
             "losses": 11,
             "ties": 0,
+            "win_pct": 0.214,
             "points_for": 1108.0,
             "points_against": 1515.3,
             "final_rank": 9
@@ -5407,6 +5397,7 @@
             "wins": 6,
             "losses": 8,
             "ties": 0,
+            "win_pct": 0.429,
             "points_for": 1425.18,
             "points_against": 1525.88,
             "final_rank": 9
@@ -5417,6 +5408,7 @@
             "wins": 10,
             "losses": 4,
             "ties": 0,
+            "win_pct": 0.714,
             "points_for": 1426.14,
             "points_against": 1272.34,
             "final_rank": 4
@@ -5427,6 +5419,7 @@
             "wins": 8,
             "losses": 6,
             "ties": 0,
+            "win_pct": 0.571,
             "points_for": 1563.12,
             "points_against": 1367.54,
             "final_rank": 5
@@ -5437,6 +5430,7 @@
             "wins": 6,
             "losses": 8,
             "ties": 0,
+            "win_pct": 0.429,
             "points_for": 1342.3,
             "points_against": 1405.4,
             "final_rank": 9
@@ -5447,6 +5441,7 @@
             "wins": 7,
             "losses": 7,
             "ties": 0,
+            "win_pct": 0.5,
             "points_for": 1164.7,
             "points_against": 1175.7,
             "final_rank": 9
@@ -5456,125 +5451,114 @@
       }
     },
     {
-      "id": "mgr_13",
+      "id": "mgr_10",
       "claimed": true,
-      "display_name": "Andres Astaburuaga",
-      "_internal_note": "team_id=11, 2021-2023 only \u2014 held 'Atletico del Charro' before Gerardo Franco (mgr_05) took over the same slot fresh in 2024. Confirmed as a distinct person from Gerardo. No SWID ever recorded for these 3 years.",
+      "display_name": "Carlos Altamirano",
+      "_internal_note": "team_id=7, 2018-2022 only \u2014 handed off the slot to Humberto Ruiz (mgr_15) starting 2023. ESPN never recorded a SWID for this slot in any year. Renamed once (C mama i -> Masiosexo).",
       "swid": null,
-      "initials": "AA",
+      "initials": "CA",
       "bio": "PLACEHOLDER",
       "inside_joke": "PLACEHOLDER",
       "team_aliases": [
         {
+          "year": 2018,
+          "team_name": "C mama i"
+        },
+        {
+          "year": 2019,
+          "team_name": "C mama i"
+        },
+        {
+          "year": 2020,
+          "team_name": "C mama i"
+        },
+        {
           "year": 2021,
-          "team_name": "Atletico del Charro"
+          "team_name": "C mama i"
         },
         {
           "year": 2022,
-          "team_name": "Atletico del Charro"
-        },
-        {
-          "year": 2023,
-          "team_name": "Atletico del Charro"
+          "team_name": "Masiosexo"
         }
       ],
       "stats": {
-        "key": "mgr_13",
-        "display_name": "Andres Astaburuaga",
+        "key": "mgr_10",
+        "display_name": "Carlos Altamirano",
         "unlinked": false,
-        "seasons_played": 3,
+        "seasons_played": 5,
         "championships": 0,
         "runner_ups": 0,
-        "wall_of_shame": 1,
-        "wins": 12,
-        "losses": 30,
+        "wall_of_shame": 3,
+        "wins": 26,
+        "losses": 44,
         "ties": 0,
-        "points_for": 3737.24,
-        "points_against": 4311.94,
+        "points_for": 6284.18,
+        "points_against": 7024.16,
         "years": [
+          2018,
+          2019,
+          2020,
           2021,
-          2022,
-          2023
+          2022
         ],
         "by_year": [
           {
-            "year": 2023,
-            "team_name": "Atletico del Charro",
-            "wins": 3,
-            "losses": 11,
+            "year": 2022,
+            "team_name": "Masiosexo",
+            "wins": 2,
+            "losses": 12,
             "ties": 0,
-            "points_for": 1224.2,
-            "points_against": 1427.0,
+            "win_pct": 0.143,
+            "points_for": 1143.4,
+            "points_against": 1523.0,
             "final_rank": 12
           },
           {
-            "year": 2022,
-            "team_name": "Atletico del Charro",
-            "wins": 6,
-            "losses": 8,
+            "year": 2021,
+            "team_name": "C mama i",
+            "wins": 4,
+            "losses": 10,
             "ties": 0,
-            "points_for": 1426.16,
-            "points_against": 1366.06,
-            "final_rank": 10
+            "win_pct": 0.286,
+            "points_for": 1132.1,
+            "points_against": 1283.16,
+            "final_rank": 12
           },
           {
-            "year": 2021,
-            "team_name": "Atletico del Charro",
-            "wins": 3,
-            "losses": 11,
-            "ties": 0,
-            "points_for": 1086.88,
-            "points_against": 1518.88,
-            "final_rank": 7
-          }
-        ],
-        "win_pct": 0.286
-      }
-    },
-    {
-      "id": "mgr_14",
-      "claimed": true,
-      "display_name": "Chu Chu",
-      "_internal_note": "team_id=8, 2019 only \u2014 filled Julian Alvarez's vacant slot for the one season he sat out. Has an actual SWID on file, unlike most other manual links here. WhatsApp contact: '~ Chuchu \ud83d\ude82\ud83d\ude82', an Austin friend of MaxBetATX's added to the group the same day.",
-      "swid": "{2FFD4018-C347-49EE-9DAB-68A64BA3CD0F}",
-      "initials": "CC",
-      "bio": "PLACEHOLDER",
-      "inside_joke": "PLACEHOLDER",
-      "team_aliases": [
-        {
-          "year": 2019,
-          "team_name": "Dale Jaiba"
-        }
-      ],
-      "stats": {
-        "key": "mgr_14",
-        "display_name": "Chu Chu",
-        "unlinked": false,
-        "seasons_played": 1,
-        "championships": 0,
-        "runner_ups": 0,
-        "wall_of_shame": 0,
-        "wins": 6,
-        "losses": 8,
-        "ties": 0,
-        "points_for": 1168.8,
-        "points_against": 1236.02,
-        "years": [
-          2019
-        ],
-        "by_year": [
-          {
-            "year": 2019,
-            "team_name": "Dale Jaiba",
+            "year": 2020,
+            "team_name": "C mama i",
             "wins": 6,
             "losses": 8,
             "ties": 0,
-            "points_for": 1168.8,
-            "points_against": 1236.02,
-            "final_rank": 7
+            "win_pct": 0.429,
+            "points_for": 1210.1,
+            "points_against": 1353.76,
+            "final_rank": 6
+          },
+          {
+            "year": 2019,
+            "team_name": "C mama i",
+            "wins": 7,
+            "losses": 7,
+            "ties": 0,
+            "win_pct": 0.5,
+            "points_for": 1427.46,
+            "points_against": 1426.9,
+            "final_rank": 6
+          },
+          {
+            "year": 2018,
+            "team_name": "C mama i",
+            "wins": 7,
+            "losses": 7,
+            "ties": 0,
+            "win_pct": 0.5,
+            "points_for": 1371.12,
+            "points_against": 1437.34,
+            "final_rank": 8
           }
         ],
-        "win_pct": 0.429
+        "win_pct": 0.371
       }
     },
     {
@@ -5625,6 +5609,7 @@
             "wins": 7,
             "losses": 7,
             "ties": 0,
+            "win_pct": 0.5,
             "points_for": 1340.34,
             "points_against": 1422.9,
             "final_rank": 7
@@ -5635,6 +5620,7 @@
             "wins": 8,
             "losses": 6,
             "ties": 0,
+            "win_pct": 0.571,
             "points_for": 1448.18,
             "points_against": 1345.28,
             "final_rank": 8
@@ -5645,12 +5631,202 @@
             "wins": 6,
             "losses": 8,
             "ties": 0,
+            "win_pct": 0.429,
             "points_for": 1199.42,
             "points_against": 1384.52,
             "final_rank": 7
           }
         ],
         "win_pct": 0.5
+      }
+    },
+    {
+      "id": "mgr_05",
+      "claimed": true,
+      "display_name": "Gerardo Franco",
+      "_internal_note": "Confirmed for Los Frailes ('24) / Tua girls one Kupp ('25) only \u2014 took over team_id=11 fresh in 2024. The prior occupant of that slot (Atletico del Charro, 2021-2023) is a different person, Andres Astaburuaga \u2014 see mgr_13.",
+      "swid": "{AEF7B003-AF65-4453-A205-6EA2DE8BD8BE}",
+      "initials": "GF",
+      "bio": "PLACEHOLDER \u2014 Newer to the league, already has a top-5 finish.",
+      "inside_joke": "PLACEHOLDER \u2014 Best team name in the league, fight us.",
+      "team_aliases": [
+        {
+          "year": 2024,
+          "team_name": "Los Frailes"
+        },
+        {
+          "year": 2025,
+          "team_name": "Tua girls one Kupp"
+        }
+      ],
+      "stats": {
+        "key": "mgr_05",
+        "display_name": "Gerardo Franco",
+        "unlinked": false,
+        "seasons_played": 2,
+        "championships": 0,
+        "runner_ups": 0,
+        "wall_of_shame": 0,
+        "wins": 20,
+        "losses": 8,
+        "ties": 0,
+        "points_for": 3054.32,
+        "points_against": 2701.46,
+        "years": [
+          2024,
+          2025
+        ],
+        "by_year": [
+          {
+            "year": 2025,
+            "team_name": "Tua girls one Kupp",
+            "wins": 10,
+            "losses": 4,
+            "ties": 0,
+            "win_pct": 0.714,
+            "points_for": 1454.78,
+            "points_against": 1269.46,
+            "final_rank": 5
+          },
+          {
+            "year": 2024,
+            "team_name": "Los Frailes",
+            "wins": 10,
+            "losses": 4,
+            "ties": 0,
+            "win_pct": 0.714,
+            "points_for": 1599.54,
+            "points_against": 1432.0,
+            "final_rank": 6
+          }
+        ],
+        "win_pct": 0.714
+      }
+    },
+    {
+      "id": "mgr_13",
+      "claimed": true,
+      "display_name": "Andres Astaburuaga",
+      "_internal_note": "team_id=11, 2021-2023 only \u2014 held 'Atletico del Charro' before Gerardo Franco (mgr_05) took over the same slot fresh in 2024. Confirmed as a distinct person from Gerardo. No SWID ever recorded for these 3 years.",
+      "swid": null,
+      "initials": "AA",
+      "bio": "PLACEHOLDER",
+      "inside_joke": "PLACEHOLDER",
+      "team_aliases": [
+        {
+          "year": 2021,
+          "team_name": "Atletico del Charro"
+        },
+        {
+          "year": 2022,
+          "team_name": "Atletico del Charro"
+        },
+        {
+          "year": 2023,
+          "team_name": "Atletico del Charro"
+        }
+      ],
+      "stats": {
+        "key": "mgr_13",
+        "display_name": "Andres Astaburuaga",
+        "unlinked": false,
+        "seasons_played": 3,
+        "championships": 0,
+        "runner_ups": 0,
+        "wall_of_shame": 1,
+        "wins": 12,
+        "losses": 30,
+        "ties": 0,
+        "points_for": 3737.24,
+        "points_against": 4311.94,
+        "years": [
+          2021,
+          2022,
+          2023
+        ],
+        "by_year": [
+          {
+            "year": 2023,
+            "team_name": "Atletico del Charro",
+            "wins": 3,
+            "losses": 11,
+            "ties": 0,
+            "win_pct": 0.214,
+            "points_for": 1224.2,
+            "points_against": 1427.0,
+            "final_rank": 12
+          },
+          {
+            "year": 2022,
+            "team_name": "Atletico del Charro",
+            "wins": 6,
+            "losses": 8,
+            "ties": 0,
+            "win_pct": 0.429,
+            "points_for": 1426.16,
+            "points_against": 1366.06,
+            "final_rank": 10
+          },
+          {
+            "year": 2021,
+            "team_name": "Atletico del Charro",
+            "wins": 3,
+            "losses": 11,
+            "ties": 0,
+            "win_pct": 0.214,
+            "points_for": 1086.88,
+            "points_against": 1518.88,
+            "final_rank": 7
+          }
+        ],
+        "win_pct": 0.286
+      }
+    },
+    {
+      "id": "mgr_14",
+      "claimed": true,
+      "display_name": "Chu Chu",
+      "_internal_note": "team_id=8, 2019 only \u2014 filled Julian Alvarez's vacant slot for the one season he sat out. Has an actual SWID on file, unlike most other manual links here. WhatsApp contact: '~ Chuchu \ud83d\ude82\ud83d\ude82', an Austin friend of MaxBetATX's added to the group the same day.",
+      "swid": "{2FFD4018-C347-49EE-9DAB-68A64BA3CD0F}",
+      "initials": "CC",
+      "bio": "PLACEHOLDER",
+      "inside_joke": "PLACEHOLDER",
+      "team_aliases": [
+        {
+          "year": 2019,
+          "team_name": "Dale Jaiba"
+        }
+      ],
+      "stats": {
+        "key": "mgr_14",
+        "display_name": "Chu Chu",
+        "unlinked": false,
+        "seasons_played": 1,
+        "championships": 0,
+        "runner_ups": 0,
+        "wall_of_shame": 0,
+        "wins": 6,
+        "losses": 8,
+        "ties": 0,
+        "points_for": 1168.8,
+        "points_against": 1236.02,
+        "years": [
+          2019
+        ],
+        "by_year": [
+          {
+            "year": 2019,
+            "team_name": "Dale Jaiba",
+            "wins": 6,
+            "losses": 8,
+            "ties": 0,
+            "win_pct": 0.429,
+            "points_for": 1168.8,
+            "points_against": 1236.02,
+            "final_rank": 7
+          }
+        ],
+        "win_pct": 0.429
       }
     }
   ],

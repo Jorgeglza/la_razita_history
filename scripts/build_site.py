@@ -134,12 +134,17 @@ def build_all_time_standings(teams, by_alias, by_swid):
         b["points_for"] += t["points_for"] or 0.0
         b["points_against"] += t["points_against"] or 0.0
         b["years"].append(t["year"])
+        yr_wins = t["wins"] or 0
+        yr_losses = t["losses"] or 0
+        yr_ties = t["ties"] or 0
+        yr_gp = yr_wins + yr_losses + yr_ties
         b["by_year"].append({
             "year": t["year"],
             "team_name": t["team_name"],
-            "wins": t["wins"] or 0,
-            "losses": t["losses"] or 0,
-            "ties": t["ties"] or 0,
+            "wins": yr_wins,
+            "losses": yr_losses,
+            "ties": yr_ties,
+            "win_pct": round(yr_wins / yr_gp, 3) if yr_gp else 0.0,
             "points_for": round(t["points_for"] or 0.0, 2),
             "points_against": round(t["points_against"] or 0.0, 2),
             "final_rank": t["final_rank"],
@@ -230,6 +235,13 @@ def merge_managers(managers_cfg, all_time_standings):
             "wall_of_shame": 0, "seasons_played": 0, "win_pct": 0.0,
         })
         merged.append({**m, "stats": stats})
+    # Accolades leaderboard order: most championships first, ties broken by
+    # most runner-ups, then by most wins.
+    merged.sort(key=lambda m: (
+        -(m["stats"]["championships"] or 0),
+        -(m["stats"]["runner_ups"] or 0),
+        -(m["stats"]["wins"] or 0),
+    ))
     return merged
 
 
