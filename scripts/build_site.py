@@ -221,7 +221,7 @@ def build_records(teams):
         "worst_single_season_record": worst_record,
         "note": "Weekly/matchup-level records (highest single game, longest streak, "
                 "head-to-head) aren't available — ESPN stopped serving that data for "
-                "completed seasons. See README's Known limitation section.",
+                "completed seasons.",
     }
 
 

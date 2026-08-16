@@ -106,7 +106,7 @@
       var diff = target.getTime() - Date.now();
       if (isNaN(target.getTime())) return;
       if (diff <= 0) {
-        countdownEl.querySelector(".countdown-label").textContent = "Draft day is here (or already happened) — update the date in league_info.json";
+        countdownEl.querySelector(".countdown-label").textContent = "Draft day is here (or already happened)";
         elDays.textContent = elHours.textContent = elMins.textContent = elSecs.textContent = "00";
         return;
       }

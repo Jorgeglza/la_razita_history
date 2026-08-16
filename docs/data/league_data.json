@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T03:20:33.543757+00:00",
+  "generated_at": "2026-08-16T03:31:36.794664+00:00",
   "league": {
     "name": "La Razita",
     "founded": 2018,
@@ -3959,7 +3959,7 @@
       "points_against": 1365.44,
       "waiver_rank": 0
     },
-    "note": "Weekly/matchup-level records (highest single game, longest streak, head-to-head) aren't available \u2014 ESPN stopped serving that data for completed seasons. See README's Known limitation section."
+    "note": "Weekly/matchup-level records (highest single game, longest streak, head-to-head) aren't available \u2014 ESPN stopped serving that data for completed seasons."
   },
   "managers": [
     {
@@ -5836,18 +5836,18 @@
       "rivalries": false,
       "futures_ballot": false,
       "tribute": false,
-      "draft_countdown": false,
-      "show_ops_details": false,
+      "draft_countdown": true,
+      "show_ops_details": true,
       "show_manager_bios": false,
       "_readme": "Each flag gates one section/feature in index.html. Flip to true once the corresponding content below is real, then rerun build_site.py."
     },
     "league_at_a_glance": {
       "note": "Scoring/roster figures below are pulled live from the DB by build_site.py for the most recent season \u2014 this block only holds the parts ESPN doesn't expose (dates, deadlines in plain language, waiver-day habits).",
-      "draft_date_iso": "2026-09-05T19:00:00-05:00",
-      "draft_location": "PLACEHOLDER \u2014 Jorge's house / Discord voice / wherever",
-      "trade_deadline_text": "PLACEHOLDER \u2014 Trades lock the Tuesday before Thanksgiving. 48-hour review window, 5 vetoes to reverse a trade.",
-      "waiver_text": "PLACEHOLDER \u2014 FAAB waivers, $100 budget, process runs daily. Continuous waivers, no season-long free-agent locks.",
-      "playoff_text": "PLACEHOLDER \u2014 Top 6 make the playoffs, seeded by record then total points. Championship is a 3-week bracket."
+      "draft_date_iso": "2026-09-06T19:00:00-06:00",
+      "draft_location": "Casa de Jaime",
+      "trade_deadline_text": "Trades lock the Tuesday before Thanksgiving. 48-hour review window, 5 vetoes to reverse a trade.",
+      "waiver_text": "FAAB waivers, $100 budget, process runs daily. Continuous waivers, no season-long free-agent locks.",
+      "playoff_text": "Top 6 make the playoffs, seeded by record then total points. Championship is a 3-week bracket."
     },
     "rivalries": [
       {
@@ -5856,7 +5856,7 @@
           "mgr_02",
           "mgr_04"
         ],
-        "blurb": "PLACEHOLDER \u2014 Two franchises that rebrand every year but have somehow drafted against each other in week 1 more than anyone else. Real head-to-head records aren't available (ESPN stopped serving weekly matchup data for past seasons \u2014 see README), so this is vibes-based until someone finds an old screenshot."
+        "blurb": "PLACEHOLDER \u2014 Two franchises that rebrand every year but have somehow drafted against each other in week 1 more than anyone else. Real head-to-head records aren't available (ESPN stopped serving weekly matchup data for past seasons), so this is vibes-based until someone finds an old screenshot."
       },
       {
         "title": "PLACEHOLDER \u2014 Stlan vs. Everyone",

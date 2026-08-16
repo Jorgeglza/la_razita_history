@@ -66,7 +66,7 @@
     <div class="section-head">
       <div class="kicker">Mark your calendar</div>
       <h2>Draft Countdown</h2>
-      <p class="desc mt-0" style="margin-left:auto;margin-right:auto;">Counting down to the next draft. Update the date in <code>site_src/content/league_info.json</code> once it's locked in.</p>
+      <p class="desc mt-0" style="margin-left:auto;margin-right:auto;">Counting down to the next draft.</p>
     </div>
     <div id="draft-countdown" data-target="{{ data.league_info.league_at_a_glance.draft_date_iso }}">
       <div class="countdown-label" style="color:#556;font-size:0.85rem;margin-bottom:4px;">Time until kickoff of the {{ data.league_info.futures_ballot.season }} draft</div>
@@ -137,7 +137,7 @@
     <div class="section-head">
       <div class="kicker">The ledger</div>
       <h2>All-Time Standings</h2>
-      <p class="desc">Aggregated across every season. Rows flagged <span class="placeholder-flag">Unlinked</span> either couldn't be matched to a manager profile at all (ESPN didn't record an owner for that team-season — grouped by team name instead), or are correctly tracked but don't have a confirmed real name yet. Fix the former with a <code>swid</code>/<code>team_aliases</code> entry in <code>managers.json</code>; fix the latter by setting <code>claimed: true</code> with a real <code>display_name</code>. Click a column to sort, click a row to see its year-by-year breakdown.</p>
+      <p class="desc">Aggregated across every season. Click a column to sort, click a row to see its year-by-year breakdown.</p>
     </div>
     <div class="table-wrap">
       <table data-sortable data-paired-rows>
@@ -246,14 +246,14 @@
     <div class="section-head">
       <div class="kicker">The ledger, by person</div>
       <h2>Manager Cards</h2>
-      <p class="desc">Trophy cases and team-name history per manager. Cards marked <span class="placeholder-flag">Name TBD</span> are linked and tracked correctly across years but don't have a confirmed real name yet — add one in <code>site_src/content/managers.json</code> (set <code>claimed: true</code>) and rerun the build.</p>
+      <p class="desc">Trophy cases and team-name history per manager.</p>
     </div>
     <div class="card-grid">
       {% for m in data.managers %}
       <div class="card manager-card">
         <div class="avatar">{{ m.initials }}</div>
         <div>
-          <div class="name">{% if m.claimed and m.display_name %}{{ m.display_name }}{% else %}Unclaimed Franchise<span class="placeholder-flag">Name TBD</span>{% endif %}</div>
+          <div class="name">{{ m.display_name }}</div>
           {% if data.league_info.section_visibility.show_manager_bios %}
           <div class="bio">{{ m.bio }}</div>
           <div class="joke">{{ m.inside_joke }}</div>
@@ -279,7 +279,7 @@
     <div class="section-head">
       <div class="kicker">Beef</div>
       <h2>Rivalries</h2>
-      <p class="desc">Head-to-head matchup history isn't available from ESPN for past seasons (see README), so these are written up by hand. Edit <code>league_info.json</code> to keep them current.</p>
+      <p class="desc">Head-to-head matchup history isn't available from ESPN for past seasons, so these are written up by hand.</p>
     </div>
     <div class="card-grid">
       {% for r in data.league_info.rivalries %}
