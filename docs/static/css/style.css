@@ -246,9 +246,17 @@ th, td {
 }
 /* Fixed layout on the standings tables so the <colgroup> percentages are
    honored exactly — needed so the detail (drill-down) table's columns line
-   up with the parent All-Time Standings table's columns. */
-table[data-sortable], .detail-table {
+   up with the parent All-Time Standings table's columns. A min-width keeps
+   each column's pixel width above what its header/content needs; below
+   that width the .table-wrap scrolls horizontally instead of the fixed
+   layout squeezing text and cutting it off with an ellipsis. */
+table[data-sortable] {
   table-layout: fixed;
+  min-width: 1180px;
+}
+.detail-table {
+  table-layout: fixed;
+  min-width: 640px;
 }
 table[data-sortable] td, table[data-sortable] th,
 .detail-table td, .detail-table th {
@@ -293,7 +301,6 @@ tr.standings-detail td {
 }
 .detail-table {
   width: 100%;
-  min-width: 460px;
   box-shadow: none;
   font-size: 0.85rem;
   border: 1px solid rgba(14,27,45,0.10);
